@@ -1,0 +1,919 @@
+#coins-and-tokens-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 140px;
+    padding-bottom: 80px;
+    gap: 100px;
+    width: 100%;
+}
+
+.coins-tokens-top h1 {
+    font-size: 4.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    color: #19212b;
+}
+
+.coins-tokens-top h4 {
+    font-size: 1.9rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    color: #19212b;
+}
+/*-----------------------------------------*/
+
+
+
+
+
+
+
+
+
+/* ------ COINS-TOKENS-BOTTOM-BANNER STARTS HERE ----------------*/
+#coins-tokens-bottom-banner {
+    background-color: #fefefe;
+    padding-inline: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.coins-tokens-bottom-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #19212b;
+    width: 100%;
+    gap: 50px;
+}
+
+.coins-tokens-bottom-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+    padding-left: 40px;
+    padding-block: 100px;
+}
+
+.coins-tokens-bottom-left h2 {
+    font-size: 3.35rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    color: #fff;
+}
+
+.coins-tokens-bottom-left p {
+    font-size: .8rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    color: #f0f0f0;
+}
+
+.coins-tokens-bottom-img {
+    width: 100%;
+    height: 100%;
+}
+
+.coins-tokens-bottom-img img{
+    width: 100%;
+    height: 100%;
+}
+/*-------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------COINS-TOKENS_BENEFITS STARTS HERE ---------------*/
+#coins-tokens-benefits {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 200px;
+}
+
+.coins-tokens-benefits-header {
+    width: 100%;
+    text-align: right;
+}
+
+.coins-tokens-benefits-header h1 {
+    /* width: 100%; */
+    font-size: 3.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+    color: #19212b;
+}
+
+.coins-tokens-benefits-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 25px;
+}
+
+.coins-tokens-benefits-info h3 {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    font-size: 1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    color:#19212b;
+}
+
+.coins-tokens-benefits-info p {
+    font-size: 1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#19212b;
+}
+
+.coins-tokens-benefits-info h3 span {
+    border: 2px solid #057485;
+    color: #057485;
+    padding: 2px 4px;
+    border-radius: 50%;
+}
+
+.coins-tokens-benefits-info a {
+    background-color: #057485;
+    color: #fff;
+    text-decoration: none;
+    padding: 17px 30px;
+    font-size: .975rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 30px;
+    margin-top: 20px;
+    transition: transform ease-in-out .2s
+}
+
+.coins-tokens-benefits-info a:hover {
+    transform: translateY(-6%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------- COINS-TOKENS-PORTFOLIO ----------------*/
+#coins-tokens-portfolio {
+    background-color: #fefefe;
+    padding-inline: 60px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+.coins-tokens-portfolio-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #19212b;
+    width: 100%;
+    gap: 50px;
+    margin-top: 80px;
+}
+
+.coins-tokens-portfolio-right {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+    padding-block: 100px;
+    padding-right: 40px;
+}
+
+.coins-tokens-portfolio-right h2 {
+    font-size: 3.35rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    color: #fff;
+}
+
+.coins-tokens-portfolio-right h5 {
+    font-size: .8rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    color: #fff;
+}
+
+.coins-tokens-portfolio-right p {
+    font-size: 1.3rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    color: #f0f0f0;
+}
+
+.coins-tokens-portfolio-right .btn {
+    background-color: transparent;
+    padding: 20px 40px;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: transform ease-in-out .3s;
+    color: #19212b;
+}
+
+.coins-tokens-portfolio-right .btn:hover {
+    border: 1px solid white;
+    transform: translateY(-6%);
+}
+
+.coins-tokens-portfolio-img {
+    width: 100%;
+    height: 100%;
+}
+
+.coins-tokens-portfolio-img img{
+    width: 100%;
+    height: 100%;
+} 
+/*--------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+/*-------COINS-TOKENS-TRADE-TYPE STARTS HERE ---------------*/
+#coins-tokens-trade-type {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 200px;
+}
+
+.coins-tokens-trade-type-header {
+    width: 100%;
+    text-align: right;
+}
+
+.coins-tokens-trade-type-header h1 {
+    /* width: 100%; */
+    font-size: 3.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+    color: #19212b;
+}
+
+.coins-tokens-trade-type-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 25px;
+}
+
+.coins-tokens-trade-type-info h3 {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    font-size: 1.25rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#19212b;
+}
+
+.coins-tokens-trade-type-info p {
+    font-size: 1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #19212b;
+}
+
+.coins-tokens-trade-type-info h3 span {
+    color: #057485;
+}
+
+.coins-tokens-trade-type-info a {
+    background-color: #057485;
+    color: #fff;
+    text-decoration: none;
+    padding: 17px 30px;
+    font-size: .975rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 30px;
+    margin-top: 20px;
+    transition: transform ease-in-out .2s
+}
+
+.coins-tokens-trade-type-info a:hover {
+    transform: translateY(-6%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---- COINS-TOKENS-PORTFOLIO-2 STARTS HERE --------*/
+#coins-tokens-portfolio-2 {
+    background-color: #fefefe;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+.coins-tokens-portfolio-2-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #19212b;
+    width: 100%;
+    gap: 50px;
+    margin-top: 80px;
+}
+
+.coins-tokens-portfolio-2-left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+    padding-block: 100px;
+    padding-left: 80px;
+}
+
+.coins-tokens-portfolio-2-left h2 {
+    font-size: 3.125rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    color: #fff;
+}
+
+.coins-tokens-portfolio-2-left h5 {
+    font-size: .8rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    color: #fff;
+}
+
+.coins-tokens-portfolio-2-left p {
+    font-size: 1.25rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    color: #f0f0f0;
+}
+
+.coins-tokens-portfolio-2-left .btn {
+    background-color: transparent;
+    padding: 20px 40px;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: transform ease-in-out .3s;
+    color: #19212b;
+}
+
+.coins-tokens-portfolio-2-left .btn:hover {
+    border: 1px solid white;
+    transform: translateY(-6%);
+}
+
+.coins-tokens-portfolio-2-img {
+    width: 100%;
+    height: 100%;
+}
+
+.coins-tokens-portfolio-2-img img{
+    width: 100%;
+    height: 100%;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------RESPONSIVE STARTS HERE ---------------------------------------------*/
+@media only screen and (max-width: 477px) {
+    #coins-and-tokens-banner {
+        padding-top: 100px;
+        padding-bottom: 40px;
+    }
+
+    .coins-tokens-top h1 {
+        font-size: 2rem;
+    }
+
+    .coins-tokens-top h4 {
+        font-size: 1.35rem;
+    }
+    /*-----------------------------------------*/
+
+    /*----------COINS-TOKENS-BOTTOM-BANNER STARTS HERE-----------*/
+    #coins-tokens-bottom-banner {
+        padding-inline: 20px;
+        padding-top: 0px;
+    }
+
+    .coins-tokens-bottom-info {
+        grid-template-columns: 1fr;
+        padding-inline: 20px;
+        padding-block: 20px;
+    }
+
+    .coins-tokens-bottom-left {
+        gap: 20px;
+        padding-left: 0px;
+        padding-block: 0px;
+    }
+
+    .coins-tokens-bottom-left h2 {
+        font-size: 2rem;
+    }
+
+    .coins-tokens-bottom-left p {
+        font-size: .9rem;
+    }
+    /*---------------------------------------------*/
+
+    /*-------COINS-TOKENS_BENEFITS STARTS HERE ---------------*/
+    #coins-tokens-benefits {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .coins-tokens-benefits-header h1 {
+        font-size: 1.8rem;
+    }
+
+    .coins-tokens-benefits-info p {
+        font-size: 1rem;
+    }
+    /*-------------------------------------------*/
+
+    /*-------- COINS-TOKENS-PORTFOLIO STARTS  HERE ------------*/
+    /* This is for both the portfolio section */
+    #coins-tokens-portfolio {
+        padding-inline: 20px;
+        padding-top: 0px;
+    }
+
+    .coins-tokens-portfolio-info {
+        grid-template-columns: 1fr;
+        padding-inline: 20px;
+        padding-block: 20px;
+    }
+
+    .coins-tokens-portfolio-right {
+        gap: 20px;
+        padding-right: 0px;
+        padding-block: 0px;
+    }
+
+    .coins-tokens-portfolio-right h2 {
+        font-size: 2rem;
+    }
+
+    .coins-tokens-portfolio-right h5 {
+        font-size: .65rem;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 500;
+        color: #fff;
+    }
+
+    .coins-tokens-portfolio-right p {
+        font-size: 1rem;
+    }
+    /*-------------------------------------------*/
+
+    /*-------- COINS-TOKENS-PORTFOLIO-2 STARTS  HERE ------------*/
+    #coins-tokens-portfolio-2 {
+        padding-inline: 20px;
+        padding-top: 0px;
+    }
+
+    .coins-tokens-portfolio-2-info {
+        grid-template-columns: 1fr;
+        padding-inline: 20px;
+        padding-block: 20px;
+    }
+
+    .coins-tokens-portfolio-2-left {
+        gap: 20px;
+        padding-left: 0px;
+        padding-block: 0px;
+    }
+
+    .coins-tokens-portfolio-2-left h2 {
+        font-size: 2rem;
+    }
+
+    .coins-tokens-portfolio-2-left h5 {
+        font-size: .65rem;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 500;
+        color: #fff;
+    }
+
+    .coins-tokens-portfolio-2-left p {
+        font-size: 1rem;
+    }
+    /*----------------------------------------------*/
+
+    /*------ COINS-TOKENS-TRADE-TYPE STARTS HERE --------------------*/
+    #coins-tokens-trade-type {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .coins-tokens-trade-type-header h1 {
+        font-size: 1.8rem;
+    }
+
+    .coins-tokens-trade-type-info p {
+        font-size: 1rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 799px) {
+    #coins-and-tokens-banner {
+        padding-top: 80px;
+        padding-bottom: 40px;
+    }
+
+    .coins-tokens-top h1 {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+    }
+
+    .coins-tokens-top h4 {
+        font-size: 1.5rem;
+    }
+    /*------------------------------*/
+
+    /*---- COINS-TOKENS-BOTTOM-BANNER STARTS HERE ------------*/
+    #coins-tokens-bottom-banner {
+        padding-inline: 20px;
+        padding-top: 0px;
+    }
+
+    .coins-tokens-bottom-info {
+        grid-template-columns: 1fr;
+        padding-inline: 20px;
+        padding-block: 20px;
+    }
+
+    .coins-tokens-bottom-left {
+        gap: 20px;
+        padding-left: 0px;
+        padding-block: 0px;
+    }
+
+    .coins-tokens-bottom-left h2 {
+        font-size: 2rem;
+    }
+
+    .coins-tokens-bottom-left p {
+        font-size: .9rem;
+    }
+
+
+    /*-------------------------------------------*/
+
+    /*-------COINS-TOKENS_BENEFITS STARTS HERE ---------------*/
+    #coins-tokens-benefits {
+        grid-template-columns: 1fr;
+        gap: 60px;
+    }
+
+    .coins-tokens-benefits-header h1 {
+        font-size: 2rem;
+    }
+
+    .coins-tokens-benefits-info p {
+        font-size: .9rem;
+    }
+    /*-------------------------------------------*/
+
+    /*-------- COINS-TOKENS-PORTFOLIO STARTS HERE ------------*/
+    #coins-tokens-portfolio {
+        padding-inline: 20px;
+        padding-top: 0px;
+    }
+
+    .coins-tokens-portfolio-info {
+        grid-template-columns: 1fr;
+        padding-inline: 20px;
+        padding-block: 20px;
+    }
+
+    .coins-tokens-portfolio-right {
+        gap: 20px;
+        padding-right: 0px;
+        padding-block: 0px;
+    }
+
+    .coins-tokens-portfolio-right h2 {
+        font-size: 2rem;
+    }
+
+    .coins-tokens-portfolio-right p {
+        font-size: .9rem;
+    }
+    /*-------------------------------------------*/
+
+    /*-------- COINS-TOKENS-PORTFOLIO-2 STARTS  HERE ------------*/
+    #coins-tokens-portfolio-2 {
+        padding-inline: 20px;
+        padding-top: 0px;
+    }
+
+    .coins-tokens-portfolio-2-info {
+        grid-template-columns: 1fr;
+        padding-inline: 20px;
+        padding-block: 20px;
+    }
+
+    .coins-tokens-portfolio-2-left {
+        gap: 20px;
+        padding-left: 0px;
+        padding-block: 0px;
+    }
+
+    .coins-tokens-portfolio-2-left h2 {
+        font-size: 2rem;
+    }
+
+    .coins-tokens-portfolio-2-left h5 {
+        font-size: .65rem;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 500;
+        color: #fff;
+    }
+
+    .coins-tokens-portfolio-2-left p {
+        font-size: 1rem;
+    }
+    /*----------------------------------------------*/
+
+    /*------ COINS-TOKENS-TRADE-TYPE STARTS HERE --------------------*/
+    #coins-tokens-trade-type {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .coins-tokens-trade-type-header h1 {
+        font-size: 1.8rem;
+    }
+
+    .coins-tokens-trade-type-info p {
+        font-size: 1rem;
+    }
+}
+
+
+@media only screen and (max-width: 1180px) {
+    #coins-and-tokens-banner {
+        padding-top: 80px;
+        padding-bottom: 40px;
+    }
+
+    .coins-tokens-top h1 {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+    }
+
+    .coins-tokens-top h4 {
+        font-size: 1.5rem;
+    }
+    /*------------------------------*/
+
+    /*---- COINS-TOKENS-BOTTOM-BANNER STARTS HERE ------------*/
+    #coins-tokens-bottom-banner {
+        padding-inline: 20px;
+        padding-top: 0px;
+    }
+
+    .coins-tokens-bottom-info {
+        grid-template-columns: 1fr;
+        padding-inline: 20px;
+        padding-block: 20px;
+    }
+
+    .coins-tokens-bottom-left {
+        gap: 20px;
+        padding-left: 0px;
+        padding-block: 0px;
+    }
+
+    .coins-tokens-bottom-left h2 {
+        font-size: 2rem;
+    }
+
+    .coins-tokens-bottom-left p {
+        font-size: .9rem;
+    }
+
+
+    /*-------------------------------------------*/
+
+    /*-------COINS-TOKENS_BENEFITS STARTS HERE ---------------*/
+    #coins-tokens-benefits {
+        grid-template-columns: 1fr;
+        gap: 60px;
+    }
+
+    .coins-tokens-benefits-header h1 {
+        font-size: 2rem;
+    }
+
+    .coins-tokens-benefits-info p {
+        font-size: .9rem;
+    }
+    /*-------------------------------------------*/
+
+    /*-------- COINS-TOKENS-PORTFOLIO STARTS HERE ------------*/
+    #coins-tokens-portfolio {
+        padding-inline: 20px;
+        padding-top: 0px;
+    }
+
+    .coins-tokens-portfolio-info {
+        grid-template-columns: 1fr;
+        padding-inline: 20px;
+        padding-block: 20px;
+    }
+
+    .coins-tokens-portfolio-right {
+        gap: 20px;
+        padding-right: 0px;
+        padding-block: 0px;
+    }
+
+    .coins-tokens-portfolio-right h2 {
+        font-size: 2rem;
+    }
+
+    .coins-tokens-portfolio-right p {
+        font-size: .9rem;
+    }
+    /*-------------------------------------------*/
+
+    /*-------- COINS-TOKENS-PORTFOLIO-2 STARTS  HERE ------------*/
+    #coins-tokens-portfolio-2 {
+        padding-inline: 20px;
+        padding-top: 0px;
+    }
+
+    .coins-tokens-portfolio-2-info {
+        grid-template-columns: 1fr;
+        padding-inline: 20px;
+        padding-block: 20px;
+    }
+
+    .coins-tokens-portfolio-2-left {
+        gap: 20px;
+        padding-left: 0px;
+        padding-block: 0px;
+    }
+
+    .coins-tokens-portfolio-2-left h2 {
+        font-size: 2rem;
+    }
+
+    .coins-tokens-portfolio-2-left h5 {
+        font-size: .65rem;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 500;
+        color: #fff;
+    }
+
+    .coins-tokens-portfolio-2-left p {
+        font-size: 1rem;
+    }
+    /*----------------------------------------------*/
+
+    /*------ COINS-TOKENS-TRADE-TYPE STARTS HERE --------------------*/
+    #coins-tokens-trade-type {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .coins-tokens-trade-type-header h1 {
+        font-size: 1.8rem;
+    }
+
+    .coins-tokens-trade-type-info p {
+        font-size: 1rem;
+    }
+}

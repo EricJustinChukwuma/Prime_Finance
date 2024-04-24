@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funds</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/realeases/v5.10.0/css/all.css"/>
+    <script src="https://kit.fontawesome.com/249c058127.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/Funds.css">
+</head>
+<body>
+    <header class="home">
+    <nav class="navbar">
+      <a class="logo" href="index.html">Prime Finance</a>
+      <span id="open-menu"><i id class="fa fa-bars" aria-hidden="true"></i></span>
+      <div class="navbar-navigation">
+        <ul class="nav-pages">
+          <li class="page"><a href="index.html">Home</a></li>
+          <li class="page">
+            <a class="active" href="Funds.html">Funds</a>
+            <ul class="dropdown">
+              <li><a class="active" href="Funds.html">Overview</a></li>
+              <li><a href="Bitcoin-Fund.html">Trial Premium</a></li>
+              <li><a href="BTC-Platinum.html">Platinum Plan</a></li>
+              <li><a href="BTC-Private-Fund.html">Private Credit Fund</a></li>
+            </ul>
+          </li>
+          <li class="page">
+            <a href="CryptoPortfolio.html">Crypto Portfolio</a>
+          </li>
+          <li class="page">
+            <a href="CryptoAssets.html">Crypto Assets</a>
+            <ul class="dropdown">
+              <li><a href="CryptoAssets.html">Overview of Crypto assets</a></li>
+              <li><a href="Coins-and-Tokens.html">Coins & Tokens</a></li>
+              <li><a href="Crypto-Staking.html">Crypto Staking</a></li>
+              <li><a href="Yield-Farming.html">Yield Farming</a></li>
+              <li><a href="Crypto-Infrastructure.html">Crypto Infrastructure</a></li>
+              <li><a href="Non-Fungible-Tokens.html">Non-fungible Tokens</a></li>
+              <li><a href="Metaverse.html">Metaverse</a></li>
+            </ul>
+          </li>
+          <li class="page">
+            <a href="About.html">About</a>
+            <ul class="dropdown">
+              <li><a href="About.html">The Firm</a></li>
+              <li><a href="Careers.html">Contact</a></li>
+              <li><a href="Contact.html">Careers</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="nav-button-wrapper">
+          <button class="nav-button">
+            <a href="Register.html">SIGNUP</a>
+          </button>
+          <button class="nav-button"><a href="Login.html">LOGIN</a></button>
+        </div>
+      </div>
+    </nav>
+
+
+
+    <div class="sidebar">
+      <span id="close-sidebar"><i class="fa-solid fa-xmark"></i></span>
+      <div class="sidebar-top">
+          <button><a href="index.html">HOME</a></button>
+          <button>
+              <a class="active" href="Funds.html">FUNDS</a>
+              <span class="up-down-icon" onclick="showDropDownFunds()">
+                <i class="fa-solid fa-chevron-down"></i>
+              </span>
+          </button>
+          <div class="sidebar-dropdown sidebar-dropdown1">
+              <a class="active" href="Funds.html">Overview</a>
+              <a href="Bitcoin-Fund.html">Trial Premium</a>
+              <a href="BTC-Platinum.html">Platinum Plan</a>
+              <a href="BTC-Private-Fund.html">Private Credit Fund</a>
+          </div>
+          <button><a href="CryptoPortfolio.html">CRYPTO PORTFOLIO</a></button>
+          <button>
+              <a href="CryptoAssets.html">CRYPTO ASSETS</a>
+              <span class="up-down-icon" onclick="showDropDownCryptoAssets()">
+                <i class="fa-solid fa-chevron-down"></i>
+              </span>
+          </button>
+          <div class="sidebar-dropdown sidebar-dropdown2">
+              <a href="CryptoAssets.html">Overview of Crypto assets</a>
+              <a href="Coins-and-Tokens.html">Coins & Tokens</a>
+              <a href="Crypto-Staking.html">Crypto Staking</a>
+              <a href="Yield-Farming.html">Yield Farming</a>
+              <a href="Crypto-Infrastructure.html">Crypto Infrastructure</a>
+              <a href="Non-Fungible-Tokens.html">Non-fungible Tokens</a>
+              <a href="Metaverse.html">Metaverse</a>
+          </div>
+
+          <button>
+              <a href="About.html">ABOUT</a>
+              <span class="up-down-icon" onclick="showDropDownAbout()">
+                <i class="fa-solid fa-chevron-down"></i>
+              </span>
+          </button>
+          <div class="sidebar-dropdown sidebar-dropdown3">
+              <a href="About.html">The Firm</a>
+              <a href="Contact.html">Contact</a>
+              <a href="Careers.html">Careers</a>
+          </div>
+      </div>
+
+      <div class="sidebar-button-wrapper">
+          <button class="nav-button">
+            <a href="Register.html">SIGNUP</a>
+          </button>
+          <button class="nav-button"><a href="Login.html">LOGIN</a></button>
+      </div>
+    </div>
+    </header>
+
+    <a class="whatsapp-logo" aria-label="Chat on WhatsApp" href="https://wa.me/18143157677" target="_blank">
+      <i class="fa-brands fa-square-whatsapp"></i>
+    </a>
+
+    <section id="funds-banner" class="section">
+        <div>
+            <h1>Prime Funds</h1>
+            <h4>Our funds provide investors with the full spectrum of exposure to the space, ranging from illiquid venture capital assets (including early-stage tokens and multi-stage venture capital equity) to more liquid assets like bitcoin and other cryptocurrencies.</h4>
+            <p>Explore our funds below or click the button below if you are ready to start investing.</p>
+            <a href="Register.html">INVEST NOW</a>
+        </div>
+    </section>
+
+    <section id="funds-banner2" class="section">
+        <div class="invest-info">
+            <h1>Here is our active fund offered to investors</h1>
+            <h4>Select our ongoing fund and get started today</h4>
+        </div>
+    </section>
+    
+    <section id="invest-boxes">
+        <div>
+            <a href="Services.html">
+              <svg version="1.1" id="Layer_1_localnetwork" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+                <g>
+                  <linearGradient id="SVGID_1_localnetwork" gradientUnits="userSpaceOnUse" x1="135.1419" y1="134.9789" x2="136.7023" y2="50.715" class="gradient-element">
+                    <stop offset="0" class="primary-color-gradient" style="stop-color: #1A0841"></stop>
+                    <stop offset="1" class="secondary-color-gradient" style="stop-color: #4F9DA6"></stop>
+                  </linearGradient>
+                  <path fill="url(#SVGID_1_localnetwork)" class="accent-color" d="M208.1,132.1H84.2c-11.6,0-21-9.4-21-21V77.5c0-11.8,9.6-21.4,21.4-21.4h123.4V132.1z"></path>
+                  <linearGradient id="SVGID_2_localnetwork" gradientUnits="userSpaceOnUse" x1="406.0192" y1="279.5392" x2="407.5797" y2="195.2754">
+                    <stop offset="0" class="primary-color-gradient" style="stop-color: #1A0841"></stop>
+                    <stop offset="1" class="secondary-color-gradient" style="stop-color: #4F9DA6"></stop>
+                  </linearGradient>
+                  <path fill="url(#SVGID_2_localnetwork)" class="secondary-color accent-color" d="M479,276.7H355.1c-11.6,0-21-9.4-21-21V222c0-11.8,9.6-21.4,21.4-21.4H479V276.7z"></path>
+                  <linearGradient id="SVGID_3_localnetwork" gradientUnits="userSpaceOnUse" x1="134.2801" y1="409.1655" x2="135.8405" y2="324.9016">
+                    <stop offset="0" class="primary-color-gradient" style="stop-color: #1A0841"></stop>
+                    <stop offset="1" class="secondary-color-gradient" style="stop-color: #4F9DA6"></stop>
+                  </linearGradient>
+                  <path fill="url(#SVGID_3_localnetwork)" class="secondary-color accent-color" d="M207.3,406.3H83.4c-11.6,0-21-9.4-21-21v-33.7c0-11.8,9.6-21.4,21.4-21.4h123.4V406.3z"></path>
+                </g>
+                <path class="dark-color st1" d="M33,151.7V42.9c0-5.9,4.8-10.8,10.8-10.8h128.7c4.4,0,8,3.6,8,8s-3.6,8-8,8H49v98.3h53.2c4.4,0,8,3.6,8,8s-3.6,8-8,8H43.7
+                  C37.8,162.4,33,157.6,33,151.7z M168.2,124.1c-4.4,0-8,3.6-8,8s3.6,8,8,8h31.2v6.3h-75.4c-4.4,0-8,3.6-8,8c0,0.2,0,0.3,0,0.5
+                  c0,0.2,0,0.3,0,0.5v26.3H58.3c-4.4,0-8,3.6-8,8s3.6,8,8,8H98V281c0,4.4,3.6,8,8,8s8-3.6,8-8v-83.2h74.3c4.4,0,8-3.6,8-8s-3.6-8-8-8
+                  h-56.4v-19.3h72.7c5.9,0,10.8-4.8,10.8-10.8V111H386v41.7c0,4.4,3.6,8,8,8s8-3.6,8-8V103c0-4.4-3.6-8-8-8H215.4V40.2
+                  c0-4.4-3.6-8-8-8s-8,3.6-8,8v84H168.2z M478.3,176.7c-4.4,0-8,3.6-8,8v84H439c-4.4,0-8,3.6-8,8s3.6,8,8,8h31.2v6.3h-75.4
+                  c-4.4,0-8,3.6-8,8c0,0.2,0,0.3,0,0.5c0,0.2,0,0.3,0,0.5v26.3h-57.7c-4.4,0-8,3.6-8,8s3.6,8,8,8h130c4.4,0,8-3.6,8-8s-3.6-8-8-8
+                  h-56.4V307h72.7c5.9,0,10.8-4.8,10.8-10.8V184.7C486.3,180.3,482.7,176.7,478.3,176.7z M303.8,187.5v108.8c0,5.9,4.8,10.8,10.8,10.8
+                  H373c4.4,0,8-3.6,8-8s-3.6-8-8-8h-53.2v-98.3h123.4c4.4,0,8-3.6,8-8s-3.6-8-8-8H314.6C308.7,176.7,303.8,181.5,303.8,187.5z
+                   M109.3,428.6c0-4.4-3.6-8-8-8H48.1v-98.3h123.4c4.4,0,8-3.6,8-8s-3.6-8-8-8H42.9c-5.9,0-10.8,4.8-10.8,10.8v108.8
+                  c0,5.9,4.8,10.8,10.8,10.8h58.4C105.7,436.6,109.3,433,109.3,428.6z M394,358c-4.4,0-8,3.6-8,8v17H214.5v-68.7c0-4.4-3.6-8-8-8
+                  s-8,3.6-8,8v84h-31.2c-4.4,0-8,3.6-8,8s3.6,8,8,8h31.2v6.3h-75.4c-4.4,0-8,3.6-8,8c0,0.2,0,0.3,0,0.5c0,0.2,0,0.3,0,0.5V456H57.4
+                  c-4.4,0-8,3.6-8,8s3.6,8,8,8h130c4.4,0,8-3.6,8-8s-3.6-8-8-8h-56.4v-19.3h72.7c5.9,0,10.8-4.8,10.8-10.8V399H394c4.4,0,8-3.6,8-8
+                  v-25C402,361.6,398.4,358,394,358z"></path>
+                <path fill="#4F9DA6" class="secondary-color dark-color" d="M480.2,462l-36.7,36.7L406.8,462H480.2z"></path>
+                <path d="M457.2,63.5c0,4.4-3.6,8-8,8h-15.8v15.8c0,4.4-3.6,8-8,8s-8-3.6-8-8V71.5h-15.8c-4.4,0-8-3.6-8-8s3.6-8,8-8h15.8V39.7
+                  c0-4.4,3.6-8,8-8s8,3.6,8,8v15.8h15.8C453.7,55.5,457.2,59.1,457.2,63.5z M320.1,437.8c0,9.2-7.5,16.8-16.8,16.8
+                  c-9.3,0-16.8-7.5-16.8-16.8c0-9.3,7.5-16.8,16.8-16.8C312.6,421,320.1,428.5,320.1,437.8z M385.1,437.8c0,9.2-7.5,16.8-16.8,16.8
+                  c-9.3,0-16.8-7.5-16.8-16.8c0-9.3,7.5-16.8,16.8-16.8C377.6,421,385.1,428.5,385.1,437.8z M231.6,39.8c0-9.2,7.5-16.8,16.8-16.8
+                  c9.2,0,16.8,7.5,16.8,16.8s-7.5,16.8-16.8,16.8C239.1,56.5,231.6,49,231.6,39.8z M276.5,249.7c0,24.4-19.9,44.3-44.3,44.3
+                  c-24.4,0-44.3-19.9-44.3-44.3c0-24.4,19.9-44.3,44.3-44.3C256.6,205.5,276.5,225.3,276.5,249.7z M260.5,249.7
+                  c0-15.6-12.7-28.3-28.3-28.3c-15.6,0-28.3,12.7-28.3,28.3c0,15.6,12.7,28.3,28.3,28.3C247.8,278,260.5,265.3,260.5,249.7z M69,211
+                  H22c-4.4,0-8,3.6-8,8c0,4.4,3.6,8,8,8h47c4.4,0,8-3.6,8-8C77,214.6,73.4,211,69,211z"></path>
+                </svg>
+            </a>
+            <h2>TRIAL Premium Plan</h2>
+            <h4>Asset type: Multiple Holdings, <br> Venture Equity, Early-Stage Tokens</h4>
+            <h5><span><i class="fa-solid fa-lightbulb"></i></span>Actively managed exposure to all facets of the blockchain and crypto markets</h5>
+            <button>
+                <a href="Bitcoin-funds">Explore Funds</a>
+                <span><i class="fa-solid fa-chevron-right"></i></span>
+            </button>
+        </div>
+        <div>
+            <a href="Services.html">
+              <svg version="1.1" id="Layer_1_localnetwork" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+                <g>
+                  <linearGradient id="SVGID_1_localnetwork" gradientUnits="userSpaceOnUse" x1="135.1419" y1="134.9789" x2="136.7023" y2="50.715" class="gradient-element">
+                    <stop offset="0" class="primary-color-gradient" style="stop-color: #1A0841"></stop>
+                    <stop offset="1" class="secondary-color-gradient" style="stop-color: #4F9DA6"></stop>
+                  </linearGradient>
+                  <path fill="url(#SVGID_1_localnetwork)" class="accent-color" d="M208.1,132.1H84.2c-11.6,0-21-9.4-21-21V77.5c0-11.8,9.6-21.4,21.4-21.4h123.4V132.1z"></path>
+                  <linearGradient id="SVGID_2_localnetwork" gradientUnits="userSpaceOnUse" x1="406.0192" y1="279.5392" x2="407.5797" y2="195.2754">
+                    <stop offset="0" class="primary-color-gradient" style="stop-color: #1A0841"></stop>
+                    <stop offset="1" class="secondary-color-gradient" style="stop-color: #4F9DA6"></stop>
+                  </linearGradient>
+                  <path fill="url(#SVGID_2_localnetwork)" class="secondary-color accent-color" d="M479,276.7H355.1c-11.6,0-21-9.4-21-21V222c0-11.8,9.6-21.4,21.4-21.4H479V276.7z"></path>
+                  <linearGradient id="SVGID_3_localnetwork" gradientUnits="userSpaceOnUse" x1="134.2801" y1="409.1655" x2="135.8405" y2="324.9016">
+                    <stop offset="0" class="primary-color-gradient" style="stop-color: #1A0841"></stop>
+                    <stop offset="1" class="secondary-color-gradient" style="stop-color: #4F9DA6"></stop>
+                  </linearGradient>
+                  <path fill="url(#SVGID_3_localnetwork)" class="secondary-color accent-color" d="M207.3,406.3H83.4c-11.6,0-21-9.4-21-21v-33.7c0-11.8,9.6-21.4,21.4-21.4h123.4V406.3z"></path>
+                </g>
+                <path class="dark-color st1" d="M33,151.7V42.9c0-5.9,4.8-10.8,10.8-10.8h128.7c4.4,0,8,3.6,8,8s-3.6,8-8,8H49v98.3h53.2c4.4,0,8,3.6,8,8s-3.6,8-8,8H43.7
+                  C37.8,162.4,33,157.6,33,151.7z M168.2,124.1c-4.4,0-8,3.6-8,8s3.6,8,8,8h31.2v6.3h-75.4c-4.4,0-8,3.6-8,8c0,0.2,0,0.3,0,0.5
+                  c0,0.2,0,0.3,0,0.5v26.3H58.3c-4.4,0-8,3.6-8,8s3.6,8,8,8H98V281c0,4.4,3.6,8,8,8s8-3.6,8-8v-83.2h74.3c4.4,0,8-3.6,8-8s-3.6-8-8-8
+                  h-56.4v-19.3h72.7c5.9,0,10.8-4.8,10.8-10.8V111H386v41.7c0,4.4,3.6,8,8,8s8-3.6,8-8V103c0-4.4-3.6-8-8-8H215.4V40.2
+                  c0-4.4-3.6-8-8-8s-8,3.6-8,8v84H168.2z M478.3,176.7c-4.4,0-8,3.6-8,8v84H439c-4.4,0-8,3.6-8,8s3.6,8,8,8h31.2v6.3h-75.4
+                  c-4.4,0-8,3.6-8,8c0,0.2,0,0.3,0,0.5c0,0.2,0,0.3,0,0.5v26.3h-57.7c-4.4,0-8,3.6-8,8s3.6,8,8,8h130c4.4,0,8-3.6,8-8s-3.6-8-8-8
+                  h-56.4V307h72.7c5.9,0,10.8-4.8,10.8-10.8V184.7C486.3,180.3,482.7,176.7,478.3,176.7z M303.8,187.5v108.8c0,5.9,4.8,10.8,10.8,10.8
+                  H373c4.4,0,8-3.6,8-8s-3.6-8-8-8h-53.2v-98.3h123.4c4.4,0,8-3.6,8-8s-3.6-8-8-8H314.6C308.7,176.7,303.8,181.5,303.8,187.5z
+                  M109.3,428.6c0-4.4-3.6-8-8-8H48.1v-98.3h123.4c4.4,0,8-3.6,8-8s-3.6-8-8-8H42.9c-5.9,0-10.8,4.8-10.8,10.8v108.8
+                  c0,5.9,4.8,10.8,10.8,10.8h58.4C105.7,436.6,109.3,433,109.3,428.6z M394,358c-4.4,0-8,3.6-8,8v17H214.5v-68.7c0-4.4-3.6-8-8-8
+                  s-8,3.6-8,8v84h-31.2c-4.4,0-8,3.6-8,8s3.6,8,8,8h31.2v6.3h-75.4c-4.4,0-8,3.6-8,8c0,0.2,0,0.3,0,0.5c0,0.2,0,0.3,0,0.5V456H57.4
+                  c-4.4,0-8,3.6-8,8s3.6,8,8,8h130c4.4,0,8-3.6,8-8s-3.6-8-8-8h-56.4v-19.3h72.7c5.9,0,10.8-4.8,10.8-10.8V399H394c4.4,0,8-3.6,8-8
+                  v-25C402,361.6,398.4,358,394,358z"></path>
+                <path fill="#4F9DA6" class="secondary-color dark-color" d="M480.2,462l-36.7,36.7L406.8,462H480.2z"></path>
+                <path d="M457.2,63.5c0,4.4-3.6,8-8,8h-15.8v15.8c0,4.4-3.6,8-8,8s-8-3.6-8-8V71.5h-15.8c-4.4,0-8-3.6-8-8s3.6-8,8-8h15.8V39.7
+                  c0-4.4,3.6-8,8-8s8,3.6,8,8v15.8h15.8C453.7,55.5,457.2,59.1,457.2,63.5z M320.1,437.8c0,9.2-7.5,16.8-16.8,16.8
+                  c-9.3,0-16.8-7.5-16.8-16.8c0-9.3,7.5-16.8,16.8-16.8C312.6,421,320.1,428.5,320.1,437.8z M385.1,437.8c0,9.2-7.5,16.8-16.8,16.8
+                  c-9.3,0-16.8-7.5-16.8-16.8c0-9.3,7.5-16.8,16.8-16.8C377.6,421,385.1,428.5,385.1,437.8z M231.6,39.8c0-9.2,7.5-16.8,16.8-16.8
+                  c9.2,0,16.8,7.5,16.8,16.8s-7.5,16.8-16.8,16.8C239.1,56.5,231.6,49,231.6,39.8z M276.5,249.7c0,24.4-19.9,44.3-44.3,44.3
+                  c-24.4,0-44.3-19.9-44.3-44.3c0-24.4,19.9-44.3,44.3-44.3C256.6,205.5,276.5,225.3,276.5,249.7z M260.5,249.7
+                  c0-15.6-12.7-28.3-28.3-28.3c-15.6,0-28.3,12.7-28.3,28.3c0,15.6,12.7,28.3,28.3,28.3C247.8,278,260.5,265.3,260.5,249.7z M69,211
+                  H22c-4.4,0-8,3.6-8,8c0,4.4,3.6,8,8,8h47c4.4,0,8-3.6,8-8C77,214.6,73.4,211,69,211z"></path>
+                </svg>
+            </a>
+            <h2>Platinum Plan</h2>
+            <h4>Asset type: Multiple Holdings, <br> Venture Equity, Early-Stage Tokens</h4>
+            <h5><span><i class="fa-solid fa-lightbulb"></i></span>Actively managed exposure to all facets of the blockchain and crypto markets</h5>
+            <button>
+                <a href="Bitcoin-funds">Explore Funds</a>
+                <span><i class="fa-solid fa-chevron-right"></i></span>
+            </button>
+        </div>
+        <div>
+            <a href="Services.html">
+              <svg version="1.1" id="Layer_1_localnetwork" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+                <g>
+                  <linearGradient id="SVGID_1_localnetwork" gradientUnits="userSpaceOnUse" x1="135.1419" y1="134.9789" x2="136.7023" y2="50.715" class="gradient-element">
+                    <stop offset="0" class="primary-color-gradient" style="stop-color: #1A0841"></stop>
+                    <stop offset="1" class="secondary-color-gradient" style="stop-color: #4F9DA6"></stop>
+                  </linearGradient>
+                  <path fill="url(#SVGID_1_localnetwork)" class="accent-color" d="M208.1,132.1H84.2c-11.6,0-21-9.4-21-21V77.5c0-11.8,9.6-21.4,21.4-21.4h123.4V132.1z"></path>
+                  <linearGradient id="SVGID_2_localnetwork" gradientUnits="userSpaceOnUse" x1="406.0192" y1="279.5392" x2="407.5797" y2="195.2754">
+                    <stop offset="0" class="primary-color-gradient" style="stop-color: #1A0841"></stop>
+                    <stop offset="1" class="secondary-color-gradient" style="stop-color: #4F9DA6"></stop>
+                  </linearGradient>
+                  <path fill="url(#SVGID_2_localnetwork)" class="secondary-color accent-color" d="M479,276.7H355.1c-11.6,0-21-9.4-21-21V222c0-11.8,9.6-21.4,21.4-21.4H479V276.7z"></path>
+                  <linearGradient id="SVGID_3_localnetwork" gradientUnits="userSpaceOnUse" x1="134.2801" y1="409.1655" x2="135.8405" y2="324.9016">
+                    <stop offset="0" class="primary-color-gradient" style="stop-color: #1A0841"></stop>
+                    <stop offset="1" class="secondary-color-gradient" style="stop-color: #4F9DA6"></stop>
+                  </linearGradient>
+                  <path fill="url(#SVGID_3_localnetwork)" class="secondary-color accent-color" d="M207.3,406.3H83.4c-11.6,0-21-9.4-21-21v-33.7c0-11.8,9.6-21.4,21.4-21.4h123.4V406.3z"></path>
+                </g>
+                <path class="dark-color st1" d="M33,151.7V42.9c0-5.9,4.8-10.8,10.8-10.8h128.7c4.4,0,8,3.6,8,8s-3.6,8-8,8H49v98.3h53.2c4.4,0,8,3.6,8,8s-3.6,8-8,8H43.7
+                  C37.8,162.4,33,157.6,33,151.7z M168.2,124.1c-4.4,0-8,3.6-8,8s3.6,8,8,8h31.2v6.3h-75.4c-4.4,0-8,3.6-8,8c0,0.2,0,0.3,0,0.5
+                  c0,0.2,0,0.3,0,0.5v26.3H58.3c-4.4,0-8,3.6-8,8s3.6,8,8,8H98V281c0,4.4,3.6,8,8,8s8-3.6,8-8v-83.2h74.3c4.4,0,8-3.6,8-8s-3.6-8-8-8
+                  h-56.4v-19.3h72.7c5.9,0,10.8-4.8,10.8-10.8V111H386v41.7c0,4.4,3.6,8,8,8s8-3.6,8-8V103c0-4.4-3.6-8-8-8H215.4V40.2
+                  c0-4.4-3.6-8-8-8s-8,3.6-8,8v84H168.2z M478.3,176.7c-4.4,0-8,3.6-8,8v84H439c-4.4,0-8,3.6-8,8s3.6,8,8,8h31.2v6.3h-75.4
+                  c-4.4,0-8,3.6-8,8c0,0.2,0,0.3,0,0.5c0,0.2,0,0.3,0,0.5v26.3h-57.7c-4.4,0-8,3.6-8,8s3.6,8,8,8h130c4.4,0,8-3.6,8-8s-3.6-8-8-8
+                  h-56.4V307h72.7c5.9,0,10.8-4.8,10.8-10.8V184.7C486.3,180.3,482.7,176.7,478.3,176.7z M303.8,187.5v108.8c0,5.9,4.8,10.8,10.8,10.8
+                  H373c4.4,0,8-3.6,8-8s-3.6-8-8-8h-53.2v-98.3h123.4c4.4,0,8-3.6,8-8s-3.6-8-8-8H314.6C308.7,176.7,303.8,181.5,303.8,187.5z
+                  M109.3,428.6c0-4.4-3.6-8-8-8H48.1v-98.3h123.4c4.4,0,8-3.6,8-8s-3.6-8-8-8H42.9c-5.9,0-10.8,4.8-10.8,10.8v108.8
+                  c0,5.9,4.8,10.8,10.8,10.8h58.4C105.7,436.6,109.3,433,109.3,428.6z M394,358c-4.4,0-8,3.6-8,8v17H214.5v-68.7c0-4.4-3.6-8-8-8
+                  s-8,3.6-8,8v84h-31.2c-4.4,0-8,3.6-8,8s3.6,8,8,8h31.2v6.3h-75.4c-4.4,0-8,3.6-8,8c0,0.2,0,0.3,0,0.5c0,0.2,0,0.3,0,0.5V456H57.4
+                  c-4.4,0-8,3.6-8,8s3.6,8,8,8h130c4.4,0,8-3.6,8-8s-3.6-8-8-8h-56.4v-19.3h72.7c5.9,0,10.8-4.8,10.8-10.8V399H394c4.4,0,8-3.6,8-8
+                  v-25C402,361.6,398.4,358,394,358z"></path>
+                <path fill="#4F9DA6" class="secondary-color dark-color" d="M480.2,462l-36.7,36.7L406.8,462H480.2z"></path>
+                <path d="M457.2,63.5c0,4.4-3.6,8-8,8h-15.8v15.8c0,4.4-3.6,8-8,8s-8-3.6-8-8V71.5h-15.8c-4.4,0-8-3.6-8-8s3.6-8,8-8h15.8V39.7
+                  c0-4.4,3.6-8,8-8s8,3.6,8,8v15.8h15.8C453.7,55.5,457.2,59.1,457.2,63.5z M320.1,437.8c0,9.2-7.5,16.8-16.8,16.8
+                  c-9.3,0-16.8-7.5-16.8-16.8c0-9.3,7.5-16.8,16.8-16.8C312.6,421,320.1,428.5,320.1,437.8z M385.1,437.8c0,9.2-7.5,16.8-16.8,16.8
+                  c-9.3,0-16.8-7.5-16.8-16.8c0-9.3,7.5-16.8,16.8-16.8C377.6,421,385.1,428.5,385.1,437.8z M231.6,39.8c0-9.2,7.5-16.8,16.8-16.8
+                  c9.2,0,16.8,7.5,16.8,16.8s-7.5,16.8-16.8,16.8C239.1,56.5,231.6,49,231.6,39.8z M276.5,249.7c0,24.4-19.9,44.3-44.3,44.3
+                  c-24.4,0-44.3-19.9-44.3-44.3c0-24.4,19.9-44.3,44.3-44.3C256.6,205.5,276.5,225.3,276.5,249.7z M260.5,249.7
+                  c0-15.6-12.7-28.3-28.3-28.3c-15.6,0-28.3,12.7-28.3,28.3c0,15.6,12.7,28.3,28.3,28.3C247.8,278,260.5,265.3,260.5,249.7z M69,211
+                  H22c-4.4,0-8,3.6-8,8c0,4.4,3.6,8,8,8h47c4.4,0,8-3.6,8-8C77,214.6,73.4,211,69,211z"></path>
+                </svg>
+            </a>
+            <h2>Private Credit fund</h2>
+            <h4>Asset type: Multiple Holdings, <br> Venture Equity, Early-Stage Tokens</h4>
+            <h5><span><i class="fa-solid fa-lightbulb"></i></span>Actively managed exposure to all facets of the blockchain and crypto markets</h5>
+            <button>
+                <a href="Bitcoin-funds">Explore Funds</a>
+                <span><i class="fa-solid fa-chevron-right"></i></span>
+            </button>
+        </div>
+    </section>
+
+    <section id="funds-invest-confidently" class="section">
+        <div class="funds-invest-confidently-info">
+          <div class="funds-invest-confidently-img">
+            <img src="../img/get-started-2-1-1536x960.jpg" alt="" />
+          </div>
+          <div>
+            <h1>Start investing confidently</h1>
+            <h4>
+                Ready to open an account and take charge of your financial future? It's easy. Get set up in minutes.
+            </h4>
+  
+            <p>
+                We want to work together with you on your financial goals and ambitions. We believe that everyone has a chance at creating wealth and we are committed to seeing that belief into action.
+            </p>
+            <a class="btn" href="Register.html">INVEST NOW</a>
+          </div>
+        </div>
+    </section>
+
+    <section id="footer-section" class="section">
+      <div class="footer-info">
+        <div class="footer-div-1">
+          <p>
+            We are a company committed to making people's lives better. Our
+            mission is to help people turn everyday investments, no matter how
+            small, into their dreams, no matter how big.
+          </p>
+          <div>
+            <h5>Important Links</h5>
+            <a href="About.html">About Us</a>
+            <a href="Funds.html">Funds</a>
+            <a href="CryptoPortfolio.html">Crypto Portfolio</a>
+          </div>
+        </div>
+
+        <div class="footer-div-2">
+          <h5>Get in Touch</h5>
+          <a href="Contact.html">Contact Us</a>
+          <a href="Careers.html">Careers</a>
+          <a href="Team.html">Team</a>
+          <a href="Invest.html">Invest</a>
+        </div>
+
+        <div class="footer-div-3">
+          <h5>Socials</h5>
+          <a href="Contact.html"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+          <a href="Team.html"><i class="fa-solid fa-location-dot"></i> Bermuda</a>
+          <a href="Invest.html"><i class="fa-solid fa-envelope"></i> contact@prime-finance.com</a>
+        </div>
+      </div>
+    </section>
+
+    <script src="/js/index.js"></script>
+    <script src="/js/sidebar.js"></script>
+</body>
+</html>

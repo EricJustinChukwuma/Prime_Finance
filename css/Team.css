@@ -1,0 +1,381 @@
+.team-banner-p {
+    padding-inline: 13.2rem !important;
+}
+
+#team-banner-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    padding-top: 70px;
+    padding-bottom: 120px;
+    gap: 90px;
+}
+
+#team-banner-2 h1 {
+    font-size: 3.25rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    color: #19212b;
+    line-height: 1.2;
+    word-spacing: 1px;
+}
+
+#team-banner-2 > h1 {
+    text-align: center;
+    width: 60%;
+}
+
+#team-banner-2 .team-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    /* width: 50%;
+    text-align: center; */
+}
+
+.team-main .team-main-image {
+    width: 110%;
+}
+
+.team-main .team-main-image img {
+    width: 100%;
+}
+
+.team-main .team-main-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px; 
+}
+
+.team-main .team-main-right p {
+    font-size: 1.65rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 350;
+    margin-bottom: 30px;
+}
+
+.team-main .team-main-right .btn {
+    color: #19212b;
+    font-size: .9rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 650;
+    border: 1px solid #19212b;
+    background-color: #19212b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-block: 10px;
+}
+
+.team-main .team-main-right .btn i {
+    font-size: .8rem;
+    color: #19212b;
+    margin-top: 3px;
+    transition: all ease-in-out .2s;
+}
+
+.team-main .team-main-right .btn:hover i {
+    color: #fff;
+}
+/*------------------------------------------*/
+
+/*------- JOIN-US START HERE -------------------*/
+#join-us-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #fff;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+#join-us-banner svg {
+    width: 80px;
+}
+
+#join-us-banner h5 {
+    font-size: 1rem;
+    color: #057485;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 450;
+}
+
+#join-us-banner h1 {
+    font-size: 3.25rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    color: #19212b;
+    text-align: center;
+    line-height: 1.1;
+}
+
+#join-us-banner p {
+    font-size: 1.65rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 350;
+    color: #19212b;
+    text-align: center;
+}
+
+#join-us-banner a {
+    color: #fff;
+    background-color: #057485;
+    padding: 8px 20px 12px;
+    text-decoration: none;
+    border: none;
+    font-size: .9rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 30px;
+    font-weight: 600;
+    margin-top: 60px;
+    transition: all ease-in-out .2s;
+}
+
+#join-us-banner a:hover {
+    transform: translateY(-10%);
+}
+
+.join-us-info {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 100px;
+}
+
+.join-us-info div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    position: relative;
+    animation-name: slide-to-right;
+    animation-duration: 800ms;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    transform: translateX(-30%);
+}
+
+.join-us-info div h3 {
+    font-size: 1.1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #19212b;
+}
+
+.join-us-info div::before {
+    content: "";
+    position: absolute;
+    background-image: linear-gradient(to right, transparent, #dedede);
+    width: 120px;
+    height: 8px;
+    top: 20px;
+    left: 150px;
+    border-radius: 10px;
+}
+
+.join-us-info div:nth-child(1) {
+    animation-delay: 0ms;
+}
+.join-us-info div:nth-child(2) {
+    animation-delay: 400ms;
+}
+.join-us-info div:nth-child(3) {
+    animation-delay: 800ms;
+}
+.join-us-info div:nth-child(4) {
+    animation-delay: 1200ms;
+}
+
+@keyframes slide-to-right {
+    0% {
+        opacity: 0;
+        transform: translateX(-30%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 477px) {
+    .team-banner-p {
+        padding-inline: 0rem !important;
+    }
+
+    #team-banner-2 {
+        padding-top: 70px;
+        padding-bottom: 80px;
+        gap: 40px;
+    }
+    
+    #team-banner-2 h1 {
+        font-size: 2rem;
+    }
+    
+    #team-banner-2 > h1 {
+        width: 100%;
+    }
+
+    #team-banner-2 .team-main {
+        flex-direction: column;
+        gap: 80px;
+    }
+    
+    .team-main .team-main-image {
+        width: 100%;
+    }
+    
+    .team-main .team-main-image img {
+        width: 100%;
+    }
+    /*--------------------------*/
+
+    #join-us-banner h5 {
+        font-size: .8rem;
+    }
+    
+    #join-us-banner h1 {
+        font-size: 2rem;
+    }
+    
+    #join-us-banner p {
+        font-size: 1.125rem;
+    }
+    
+    .join-us-info {
+        grid-template-columns: 1fr;
+    }
+
+    .join-us-info div::before {
+        left: 100px;
+    }
+}
+
+@media only screen and (max-width: 799px) {
+    .team-banner-p {
+        padding-inline: 0rem !important;
+    }
+
+    #team-banner-2 {
+        padding-top: 70px;
+        padding-bottom: 100px;
+        gap: 40px;
+    }
+    
+    #team-banner-2 h1 {
+        font-size: 2.35rem;
+    }
+    
+    #team-banner-2 > h1 {
+        width: 100%;
+    }
+
+    #team-banner-2 .team-main {
+        flex-direction: column;
+        gap: 80px;
+    }
+    
+    .team-main .team-main-image {
+        width: 100%;
+    }
+    
+    .team-main .team-main-image img {
+        width: 100%;
+    }
+    /*-------------------------*/
+
+    #join-us-banner h5 {
+        font-size: .9rem;
+    }
+    
+    #join-us-banner h1 {
+        font-size: 2.35rem;
+    }
+    
+    #join-us-banner p {
+        font-size: 1.325rem;
+    }
+    
+    .join-us-info {
+        grid-template-columns: 1fr;
+    }
+
+    .join-us-info div::before {
+        left: 100px;
+    }
+}
+
+
+@media only screen and (max-width: 1180px) {
+    .team-banner-p {
+        padding-inline: 0rem !important;
+    }
+
+    #team-banner-2 {
+        padding-top: 70px;
+        padding-bottom: 100px;
+        gap: 40px;
+    }
+    
+    #team-banner-2 h1 {
+        font-size: 2.35rem;
+    }
+    
+    #team-banner-2 > h1 {
+        width: 100%;
+    }
+
+    #team-banner-2 .team-main {
+        flex-direction: column;
+        gap: 80px;
+    }
+    
+    .team-main .team-main-image {
+        width: 100%;
+    }
+    
+    .team-main .team-main-image img {
+        width: 100%;
+    }
+    /*-------------------------*/
+
+    #join-us-banner h5 {
+        font-size: .9rem;
+    }
+    
+    #join-us-banner h1 {
+        font-size: 2.35rem;
+    }
+    
+    #join-us-banner p {
+        font-size: 1.325rem;
+    }
+    
+    .join-us-info {
+        grid-template-columns: 1fr;
+    }
+
+    .join-us-info div::before {
+        left: 100px;
+    }
+}

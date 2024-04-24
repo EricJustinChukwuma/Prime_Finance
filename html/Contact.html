@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact-Us</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/realeases/v5.10.0/css/all.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/249c058127.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/css/index.css" />
+    <link rel="stylesheet" href="/css/Contact.css" />
+  </head>
+  <body>
+    <header class="home">
+      <nav class="navbar">
+        <a class="logo" href="index.html">Prime Finance</a>
+        <span id="open-menu"
+          ><i id class="fa fa-bars" aria-hidden="true"></i
+        ></span>
+        <div class="navbar-navigation">
+          <ul class="nav-pages">
+            <li class="page"><a href="index.html">Home</a></li>
+            <li class="page">
+              <a href="Funds.html">Funds</a>
+              <ul class="dropdown">
+                <li><a href="Funds.html">Overview</a></li>
+                <li><a href="Bitcoin-Fund.html">Trial Premium</a></li>
+                <li><a href="BTC-Platinum.html">Platinum Plan</a></li>
+                <li><a href="BTC-Private-Fund.html">Private Credit Fund</a></li>
+              </ul>
+            </li>
+            <li class="page">
+              <a href="CryptoPortfolio.html">Crypto Portfolio</a>
+            </li>
+            <li class="page">
+              <a href="CryptoAssets.html">Crypto Assets</a>
+              <ul class="dropdown">
+                <li>
+                  <a href="CryptoAssets.html">Overview of Crypto assets</a>
+                </li>
+                <li><a href="Coins-and-Tokens.html">Coins & Tokens</a></li>
+                <li><a href="Crypto-Staking.html">Crypto Staking</a></li>
+                <li><a href="Yield-Farming.html">Yield Farming</a></li>
+                <li>
+                  <a href="Crypto-Infrastructure.html">Crypto Infrastructure</a>
+                </li>
+                <li>
+                  <a href="Non-Fungible-Tokens.html">Non-fungible Tokens</a>
+                </li>
+                <li><a href="Metaverse.html">Metaverse</a></li>
+              </ul>
+            </li>
+            <li class="page">
+              <a class="active" href="About.html">About</a>
+              <ul class="dropdown">
+                <li><a href="About.html">The Firm</a></li>
+                <li><a class="active" href="Contact.html">Contact</a></li>
+                <li><a href="Careers.html">Careers</a></li>
+              </ul>
+            </li>
+          </ul>
+          <div class="nav-button-wrapper">
+            <button class="nav-button">
+              <a href="Register.html">SIGNUP</a>
+            </button>
+            <button class="nav-button"><a href="Login.html">LOGIN</a></button>
+          </div>
+        </div>
+      </nav>
+
+      <div class="sidebar">
+        <span id="close-sidebar"><i class="fa-solid fa-xmark"></i></span>
+        <div class="sidebar-top">
+          <button><a href="index.html">HOME</a></button>
+          <button>
+            <a href="Funds.html">FUNDS</a>
+            <span class="up-down-icon" onclick="showDropDownFunds()">
+              <i class="fa-solid fa-chevron-down"></i>
+            </span>
+          </button>
+          <div class="sidebar-dropdown sidebar-dropdown1">
+            <a href="Funds.html">Overview</a>
+            <a href="Bitcoin-Fund.html">Trial Premium</a>
+            <a href="BTC-Platinum.html">Platinum Plan</a>
+            <a href="BTC-Private-Fund.html">Private Credit Fund</a>
+          </div>
+          <button><a href="CryptoPortfolio.html">CRYPTO PORTFOLIO</a></button>
+          <button>
+            <a href="CryptoAssets.html">CRYPTO ASSETS</a>
+            <span class="up-down-icon" onclick="showDropDownCryptoAssets()">
+              <i class="fa-solid fa-chevron-down"></i>
+            </span>
+          </button>
+          <div class="sidebar-dropdown sidebar-dropdown2">
+            <a href="CryptoAssets.html">Overview of Crypto assets</a>
+            <a href="Coins-and-Tokens.html">Coins & Tokens</a>
+            <a href="Crypto-Staking.html">Crypto Staking</a>
+            <a href="Yield-Farming.html">Yield Farming</a>
+            <a href="Crypto-Infrastructure.html">Crypto Infrastructure</a>
+            <a href="Non-Fungible-Tokens.html">Non-fungible Tokens</a>
+            <a href="Metaverse.html">Metaverse</a>
+          </div>
+
+          <button>
+            <a class="active" href="About.html">ABOUT</a>
+            <span class="up-down-icon" onclick="showDropDownAbout()">
+              <i class="fa-solid fa-chevron-down"></i>
+            </span>
+          </button>
+          <div class="sidebar-dropdown sidebar-dropdown3">
+            <a href="About.html">The Firm</a>
+            <a class="active" href="Contact.html">Contact</a>
+            <a href="Careers.html">Careers</a>
+          </div>
+        </div>
+
+        <div class="sidebar-button-wrapper">
+          <button class="nav-button">
+            <a href="Register.html">SIGNUP</a>
+          </button>
+          <button class="nav-button"><a href="Login.html">LOGIN</a></button>
+        </div>
+      </div>
+    </header>
+
+    <a class="whatsapp-logo" aria-label="Chat on WhatsApp" href="https://wa.me/18143157677" target="_blank">
+      <i class="fa-brands fa-square-whatsapp"></i>
+    </a>
+
+    <section id="contact-banner" class="section">
+      <div class="contact-banner-div">
+        <img src="/img/2020/08/service_03-1.jpg" alt="" />
+        <div class="opacity-div"></div>
+        <h1>Contact Us</h1>
+        <p>
+          We are here because of you. Feel free to reach out to us at any time,
+          any day.
+        </p>
+      </div>
+    </section>
+
+    <section id="contact-form-section" class="section">
+      <div class="contact-form-top">
+        <div class="contact-form-top-left">
+          <h5>CONTACT</h5>
+          <h1>We want to help you achieve your financial goals.</h1>
+          <h3>
+            An Advisor is just a message away. All our Advisors are available to
+            attend to your inquiry.
+          </h3>
+        </div>
+
+        <form class="contact-form-right">
+          <div>
+            <input type="text" name="name" placeholder="Name*" />
+            <input
+              type="text"
+              name="phone-number"
+              placeholder="Phone number*"
+            />
+          </div>
+          <input type="email" name="email" placeholder="E-mail*" />
+          <textarea name="message" maxlength="3000"></textarea>
+          <button>SEND A MESSAGE</button>
+        </form>
+      </div>
+      <div class="contact-form-bottom">
+        <div>
+          <h4>Email Us</h4>
+          <p>contact@prime-finances.com</p>
+        </div>
+        <div>
+          <h4>Visit Us</h4>
+          <p>Bermuda</p>
+        </div>
+        <div class="follow-us">
+          <h4>Follow Us</h4>
+          <div>
+            <a class="btn-social" href="www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+            <a class="btn-social" href="www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+            <a class="btn-social" href="www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="map-section">
+
+      <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31910.05136304102!2d103.86719399446731!3d1.3219423192235318!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1823d0599f7d%3A0x500f7acaedaa590!2sGeylang%2C%20Singapore!5e0!3m2!1sen!2sng!4v1713880325849!5m2!1sen!2sng" width="100%" height="700" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <div class="map-image-container">
+        <img src="/img/2023/04/1989993-scaled-1.jpg" alt="">
+        <div>
+          <div class="map-image-div1">
+            <h5>Location</h5>
+            <h2>Singapore</h2>
+          </div>
+          <div>
+            <h5>Email</h5>
+            <h2>contact@prime-finances.com</h2>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <script src="/js/index.js"></script>
+    <script src="/js/sidebar.js"></script>
+  </body>
+</html>
+
+<!-- https://maps.app.goo.gl/sYhj9Ev3bv2dw1E46 -->

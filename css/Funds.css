@@ -1,0 +1,405 @@
+h1 {
+    color:#353434;
+}
+
+h4 {
+    color:#413f3f;
+}
+
+#funds-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 120px;
+    padding-bottom: 80px;
+    background: #f8f5f5;
+}
+
+#funds-banner div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding-inline: 300px;
+}
+
+#funds-banner h1 {
+    font-size: 4.735rem;
+    color: #353434;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    animation-name: grow-big;
+    animation-duration: 800ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: 800ms;
+    transform: scale(0);
+}
+
+#funds-banner h4 {
+    font-size: 1.825rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    color: #413f3f;
+    line-height: 1.1;
+    animation-name: slide-up;
+    animation-duration: 800ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: 800ms;
+    animation-delay: 400ms;
+    transform: translateX(-50%);
+    opacity: 0;
+    z-index: -2;
+}
+
+#funds-banner p {
+    font-size: .8rem;
+    margin: 10px 0;
+}
+
+#funds-banner a {
+    color: #057485;
+    border: 1px solid #057485;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 12px 16px;
+    border-radius: 30px;
+    transition: 0.8s;
+}
+
+#funds-banner a:hover {
+    color: white;
+    background: #057485;
+    transform: translateY(-15%);
+}
+
+@keyframes grow-big {
+    0% {
+        transform: scale(0);
+    }
+
+    90% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1)
+    }
+}
+
+@keyframes slide-up {
+    0% {
+        transform: translateX(-50%);
+        opacity: 0;
+        z-index: -2;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+        z-index: 1;
+    }
+}
+/*----------------------------------------------*/
+
+
+
+
+/*------- FAUNDS-BANNER-2 STARTS HERE ---------*/
+#funds-banner2 {
+    background: #f4f4f1;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#funds-banner2 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px
+}
+
+#funds-banner2 h1 {
+    font-size: 3.125rem;
+    color: #353434;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#funds-banner2 h4 {
+    font-size: 30px;
+    font-weight: 100;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#invest-boxes {
+    background: #f4f4f1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    padding-inline: 160px;
+    padding-bottom: 100px;
+}
+
+#invest-boxes div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(219, 216, 216);
+    border-radius: 10px;
+    gap: 10px;
+    text-align: center;
+    padding: 30px 35px 50px;
+    animation-name: grow-big;
+    animation-duration: 800ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: 800ms;
+    transform: scale(0);
+}
+
+#invest-boxes div h2 {
+    color: #353434;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom: 15px;
+}
+
+#invest-boxes div h4 {
+    font-size: 16px;
+    color: #413f3f;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 40px;
+}
+
+#invest-boxes div h5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 13px;
+    color: #353434;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-top: 1px solid rgb(199, 198, 198);
+    border-bottom: 1px solid rgb(199, 198, 198);
+    padding: 10px 5px;
+}
+
+#invest-boxes div h5 span {
+    font-size: 20px;
+}
+
+#invest-boxes div button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: none;
+}
+
+#invest-boxes div button a {
+    text-decoration: none;
+    color: #057485;
+    transition: 0.4s;
+}
+
+#invest-boxes div button span {
+    border: 1px solid #057485;
+    color:#057485;
+    padding: 1px 5.5px;
+    border-radius: 50%;
+    transition: ease-in-out .4s;
+}
+
+#invest-boxes div button span i {
+    font-size: .7rem;
+}
+
+#invest-boxes div button:hover a {
+    color: #19212b;
+}
+
+#invest-boxes div button:hover span {
+    color: #19212b; 
+    border: 1px solid #19212b;
+    transform: translateX(40%);
+}
+
+#invest-boxes div svg {
+    width: 6.875rem;
+}
+/*----------------------------------------------*/
+
+.funds-invest-confidently-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    padding-right: 90px;
+}
+
+.funds-invest-confidently-info div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.funds-invest-confidently-img {
+    width: 100%;
+}
+
+.funds-invest-confidently-img img {
+    width: 100%;
+    height: 350px;
+}
+
+#funds-invest-confidently .funds-invest-confidently-info h1 {
+    font-size: 28px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    color:#353434
+}
+
+#funds-invest-confidently .funds-invest-confidently-info h4 {
+    font-size: 24px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    color:#413f3f;
+    padding-bottom: 10px;
+}
+
+#funds-invest-confidently .funds-invest-confidently-info p {
+    font-size: 14px;
+    line-height: 1.5;
+    color:#413f3f;
+    padding-top: 16px;
+}
+
+#funds-invest-confidently .funds-invest-confidently-info a {
+    border: 1px solid #057485;
+    color:#057485;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 10px;
+    font-weight: 500;
+    border-radius: 30px;
+    margin-top: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: 0.8s;
+}
+
+#funds-invest-confidently .funds-invest-confidently-info a:hover {
+    transform: translateY(-20%);
+    background: #057485;
+    color: white;
+}
+
+
+@media only screen and (max-width: 477px) {
+    .section {
+        padding-block: 20px;
+    }
+
+    #funds-banner div {
+        padding-inline: 0px;
+    }
+
+    #funds-banner h1 {
+        font-size: 2.5rem;
+    }
+
+    #funds-banner h4 {
+        font-size: 1.25rem;
+    }
+    /*----------------------------*/
+
+    /*---- FAUNDS-BANNER-2 STARTS HERE -----------*/
+    #funds-banner2 h1 {
+        font-size: 2.5rem;
+    }
+    /*---------------------------------------------*/
+
+    /*----- INVEST_BOXES ---------*/
+    #invest-boxes {
+        grid-template-columns: 1fr;
+        padding-inline: 20px;
+    }
+    /*-----------------------------*/
+
+    /*-------- FUNDS_INVEST_CONFIDENTLY ------------*/
+    .funds-invest-confidently-info {
+        flex-direction: column;
+        /* gap: 120px; */
+        padding-right: 0px;
+    }
+}
+
+
+
+@media only screen and (max-width: 799px) {
+    #funds-banner div {
+        padding-inline: 0px;
+    }
+
+    #funds-banner h1 {
+        font-size: 3rem;
+    }
+
+    #funds-banner h4 {
+        font-size: 1.25rem;
+    }
+    /*----------------------------*/
+
+    /*----- INVEST_BOXES ---------*/
+    #invest-boxes {
+        grid-template-columns: 1fr;
+        padding-inline: 40px;
+    }
+    /*-----------------------------*/
+
+    /*-------- FUNDS_INVEST_CONFIDENTLY ------------*/
+    .funds-invest-confidently-info {
+        flex-direction: column;
+        /* gap: 120px; */
+        padding-right: 0px;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 1180px) {
+    #funds-banner div {
+        padding-inline: 0px;
+    }
+
+    #funds-banner h1 {
+        font-size: 3rem;
+    }
+
+    #funds-banner h4 {
+        font-size: 1.25rem;
+    }
+    /*----------------------------*/
+
+    /*----- INVEST_BOXES ---------*/
+    #invest-boxes {
+        grid-template-columns: 1fr;
+        padding-inline: 40px;
+    }
+    /*-----------------------------*/
+
+    /*-------- FUNDS_INVEST_CONFIDENTLY ------------*/
+    .funds-invest-confidently-info {
+        flex-direction: column;
+        /* gap: 120px; */
+        padding-right: 0px;
+    }
+}

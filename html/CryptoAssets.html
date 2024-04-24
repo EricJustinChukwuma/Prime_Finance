@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crypto-Assets</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/realeases/v5.10.0/css/all.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/249c058127.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/css/index.css" />
+    <link rel="stylesheet" href="/css/CryptoAssets.css" />
+  </head>
+  <body>
+    <header class="home">
+      <nav class="navbar">
+        <a class="logo" href="index.html">Prime Finance</a>
+        <span id="open-menu"
+          ><i id class="fa fa-bars" aria-hidden="true"></i
+        ></span>
+        <div class="navbar-navigation">
+          <ul class="nav-pages">
+            <li class="page"><a href="index.html">Home</a></li>
+            <li class="page">
+              <a href="Funds.html">Funds</a>
+              <ul class="dropdown">
+                <li><a href="Funds.html">Overview</a></li>
+                <li><a href="Bitcoin-Fund.html">Trial Premium</a></li>
+                <li><a href="BTC-Platinum.html">Platinum Plan</a></li>
+                <li><a href="BTC-Private-Fund.html">Private Credit Fund</a></li>
+              </ul>
+            </li>
+            <li class="page">
+              <a href="CryptoPortfolio.html">Crypto Portfolio</a>
+            </li>
+            <li class="page">
+              <a class="active" href="CryptoAssets.html">Crypto Assets</a>
+              <ul class="dropdown">
+                <li>
+                  <a class="active" href="CryptoAssets.html"
+                    >Overview of Crypto assets</a
+                  >
+                </li>
+                <li><a href="Coins-and-Tokens.html">Coins & Tokens</a></li>
+                <li><a href="Crypto-Staking.html">Crypto Staking</a></li>
+                <li><a href="Yield-Farming.html">Yield Farming</a></li>
+                <li>
+                  <a href="Crypto-Infrastructure.html">Crypto Infrastructure</a>
+                </li>
+                <li>
+                  <a href="Non-Fungible-Tokens.html">Non-fungible Tokens</a>
+                </li>
+                <li><a href="Metaverse.html">Metaverse</a></li>
+              </ul>
+            </li>
+            <li class="page">
+              <a href="About.html">About</a>
+              <ul class="dropdown">
+                <li><a href="About.html">The Firm</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="Careers.html">Careers</a></li>
+              </ul>
+            </li>
+          </ul>
+          <div class="nav-button-wrapper">
+            <button class="nav-button">
+              <a href="Register.html">SIGNUP</a>
+            </button>
+            <button class="nav-button"><a href="Login.html">LOGIN</a></button>
+          </div>
+        </div>
+      </nav>
+
+      <div class="sidebar">
+        <span id="close-sidebar"><i class="fa-solid fa-xmark"></i></span>
+        <div class="sidebar-top">
+          <button><a href="index.html">HOME</a></button>
+          <button>
+            <a href="Funds.html">FUNDS</a>
+            <span class="up-down-icon" onclick="showDropDownFunds()">
+              <i class="fa-solid fa-chevron-down"></i>
+            </span>
+          </button>
+          <div class="sidebar-dropdown sidebar-dropdown1">
+            <a href="Funds.html">Overview</a>
+            <a href="Bitcoin-Fund.html">Trial Premium</a>
+            <a href="BTC-Platinum.html">Platinum Plan</a>
+            <a href="BTC-Private-Fund.html">Private Credit Fund</a>
+          </div>
+          <button><a href="CryptoPortfolio.html">CRYPTO PORTFOLIO</a></button>
+          <button>
+            <a class="active" href="CryptoAssets.html">CRYPTO ASSETS</a>
+            <span class="up-down-icon" onclick="showDropDownCryptoAssets()">
+              <i class="fa-solid fa-chevron-down"></i>
+            </span>
+          </button>
+          <div class="sidebar-dropdown sidebar-dropdown2">
+            <a class="active" href="CryptoAssets.html"
+              >Overview of Crypto assets</a
+            >
+            <a href="Coins-and-Tokens.html">Coins & Tokens</a>
+            <a href="Crypto-Staking.html">Crypto Staking</a>
+            <a href="Yield-Farming.html">Yield Farming</a>
+            <a href="Crypto-Infrastructure.html">Crypto Infrastructure</a>
+            <a href="Non-Fungible-Tokens.html">Non-fungible Tokens</a>
+            <a href="Metaverse.html">Metaverse</a>
+          </div>
+
+          <button>
+            <a href="About.html">ABOUT</a>
+            <span class="up-down-icon" onclick="showDropDownAbout()">
+              <i class="fa-solid fa-chevron-down"></i>
+            </span>
+          </button>
+          <div class="sidebar-dropdown sidebar-dropdown3">
+            <a href="About.html">The Firm</a>
+            <a href="Contact.html">Contact</a>
+            <a href="Careers.html">Careers</a>
+          </div>
+        </div>
+
+        <div class="sidebar-button-wrapper">
+          <button class="nav-button">
+            <a href="Register.html">SIGNUP</a>
+          </button>
+          <button class="nav-button"><a href="Login.html">LOGIN</a></button>
+        </div>
+      </div>
+    </header>
+
+    <a class="whatsapp-logo" aria-label="Chat on WhatsApp" href="https://wa.me/18143157677" target="_blank">
+      <i class="fa-brands fa-square-whatsapp"></i>
+    </a>
+
+    <section id="crypto-assets-banner" class="section">
+      <div>
+        <h1>Invest in <br />Cryptoassets</h1>
+        <p>
+          Become an early stage investor today. Get exposure to Blockchain
+          assets and crypto tokens ranging from Bitcoin and Etherum tokens to
+          more liquid asset by simply investing in our fund without compromising
+          your long-term strategy or taking on too much risk.
+        </p>
+        <a class="background-circle" href="Funds.html">Get Started</a>
+      </div>
+    </section>
+
+    <section id="crypto-assets-banner2" class="section">
+      <div>
+        <h1>Risk adjusted investment in crypto assets</h1>
+        <p>
+          The same way some ETFs contain stocks, some trusts contain crypto. Now
+          you can invest without unnecessary risk by balancing your other assets
+          alongside our cryptoasets.
+        </p>
+      </div>
+      <div>
+        <img src="../img/2020/08/image_illustrations_06-1.png" alt="" />
+      </div>
+    </section>
+
+    <section id="crypto-assets-banner3" class="section">
+      <div class="crypto-assets-banner3-info">
+        <h1>The easy way to invest in cryptoassets</h1>
+
+        <div class="boxes-container">
+          <div class="crypto-assets-boxes">
+            <h5>01</h5>
+            <h2>OPEN AN ACCOUNT</h2>
+            <p>
+              We’ll ask a few questions to understand what kind of investor you
+              are. Then we’ll set you up with the personalized asset classes
+              portfolio that’s right for you.
+            </p>
+          </div>
+
+          <div class="crypto-assets-boxes">
+            <h5>02</h5>
+            <h2>ADD SOME CRYPTO</h2>
+            <p>
+              Next step is to add some crypto to your Wallet in your Backoffice,
+              from where you will make your investments and also receive your
+              payouts.
+            </p>
+          </div>
+
+          <div class="crypto-assets-boxes">
+            <h5>03</h5>
+            <h2>BUILD YOUR WEALTH</h2>
+            <p>
+              We’ll do the work. We’ll automatically handle the trades and
+              rebalance your portfolio to stay in line with your risk level.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="explore-banner">
+      <div class="explore-banner-header">
+        <h1>Explore are our selected cryptoassets offered to investors</h1>
+        <h3>
+          These assets are carefully selected to hedge against inflation and
+          guarantee returns
+        </h3>
+      </div>
+    </section>
+
+    <section class="explore-banner-info">
+      <div class="explore-box">
+        <a href="Services.html">
+          <svg
+            version="1.1"
+            id="Layer_1_coins"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            viewBox="0 0 512 512"
+            enable-background="new 0 0 512 512"
+            xml:space="preserve"
+          >
+            <linearGradient
+              id="SVGID_1_coins"
+              gradientUnits="userSpaceOnUse"
+              x1="247.4899"
+              y1="423.2754"
+              x2="247.4899"
+              y2="145.4976"
+              class="gradient-element"
+            >
+              <stop
+                offset="0"
+                class="primary-color-gradient"
+                style="stop-color: #1a0841"
+              ></stop>
+              <stop
+                offset="1"
+                class="secondary-color-gradient"
+                style="stop-color: #4f9da6"
+              ></stop>
+            </linearGradient>
+            <path
+              fill="url(#SVGID_1_coins)"
+              class="accent-color"
+              d="M321.4,284.7c0,76.9-62.2,138.9-139,138.9c-67.6,0-123.8-48.2-136.4-112c-2.7-14,7.9-27,22.2-27h0
+                        c10.7,0,20.1,7.5,22.1,18c8.5,43.6,47.2,76.5,93.4,75.8c50.5-0.7,91.8-42,92.5-92.5c0.6-46.3-32.2-85-75.8-93.4
+                        c-10.5-2-18-11.4-18-22.1c0-14.2,13-24.9,27-22.2C273.2,160.8,321.4,217.1,321.4,284.7z M398.3,369.4V367v-52.2v-0.3h49.1v-52.2
+                        h-63.7c-14.4,0-26.1,11.7-26.1,26.1c0,12.1,8.2,22.3,19.4,25.2v1.1h-23.7c-14.4,0-26.1,11.7-26.1,26.1v0c0,14.4,11.7,26.1,26.1,26.1
+                        h23.7v3.3c-11.2,2.9-19.4,13.1-19.4,25.2v0c0,14.4,11.7,26.1,26.1,26.1h65.7v-52.2H398.3z"
+            ></path>
+            <path
+              d="M449.4,361.4h-43.1v-38.9h41.1c4.4,0,8-3.6,8-8v-52.2c0-4.4-3.6-8-8-8H326.3c-0.8-4-1.8-7.9-3-11.8h35.9c4.4,0,8-3.6,8-8
+                        s-3.6-8-8-8h-73.8c-4.4,0-8,3.6-8,8s3.6,8,8,8h21.1c2.5,7.2,4.2,14.7,5.4,22.2c0.2,1.3,0.4,2.6,0.5,3.9c0.1,0.5,0.1,0.9,0.1,1.4
+                        c0.1,1.3,0.3,2.6,0.4,3.9c0.1,0.6,0.1,1.3,0.1,1.9c0.1,1.1,0.2,2.3,0.2,3.4c0.1,1.8,0.1,3.6,0.1,5.3c0,1.2,0,2.3,0,3.5
+                        c0,0.4,0,0.8,0,1.2c0,0.8-0.1,1.5-0.1,2.3c0,0.5-0.1,1-0.1,1.5c0,0.6-0.1,1.3-0.1,1.9c0,0.6-0.1,1.2-0.2,1.8c0,0.5-0.1,1-0.1,1.5
+                        c-0.1,0.7-0.2,1.4-0.2,2.1c0,0.4-0.1,0.8-0.1,1.2c-0.1,0.8-0.2,1.6-0.3,2.4c0,0.3-0.1,0.5-0.1,0.8c-0.1,0.9-0.3,1.8-0.4,2.7
+                        c0,0.2-0.1,0.3-0.1,0.5c-0.2,1-0.4,1.9-0.6,2.9c0,0.1,0,0.1,0,0.2c-12.3,59.6-65.1,104.5-128.3,104.5c-72.2,0-131-58.8-131-131
+                        c0-72.2,58.8-131,131-131c42.2,0,82,20.5,106.6,54.8c0.7,1,1.6,1.8,2.6,2.3c1.4,1.1,3.2,1.8,5.1,1.8h43c4.4,0,8-3.6,8-8s-3.6-8-8-8
+                        h-39.6c-27.7-37-71.5-59-117.7-59c-81.1,0-147,65.9-147,147s65.9,147,147,147c12,0,23.6-1.4,34.7-4.2c1.4,1.3,3.3,2.1,5.4,2.1h226.9
+                        c4.4,0,8-3.6,8-8v-52.2C457.4,365,453.8,361.4,449.4,361.4z M324.4,322.8h65.9V359h-81.1C315.9,347.7,321,335.6,324.4,322.8z
+                         M328.7,270.4h110.7v36.2H327.8c0.1-0.4,0.1-0.7,0.1-1.1c0.2-1.2,0.3-2.3,0.5-3.5c0.1-0.5,0.1-1,0.2-1.5c0.2-1.6,0.3-3.1,0.4-4.7
+                        c0-0.2,0-0.4,0-0.6c0.1-1.4,0.2-2.9,0.2-4.3c0-0.4,0-0.9,0-1.3c0.1-1.6,0.1-3.3,0.1-4.9c0-1.1,0-2.3,0-3.4c0-0.3,0-0.5,0-0.8
+                        c0-0.9-0.1-1.8-0.1-2.6c0-0.3,0-0.5,0-0.8c0-0.9-0.1-1.8-0.2-2.7c0-0.2,0-0.4,0-0.6c-0.1-1-0.2-2.1-0.3-3.1
+                        C328.7,270.5,328.7,270.4,328.7,270.4z M441.4,413.6H253.1c16.5-9.1,31.2-21.3,43.3-36.2h145V413.6z M153.2,264.5
+                        c0,14,10.4,24.7,27.2,27.9c18.5,3.5,26.7,7.3,26.7,20c0,4.7-1.9,20-26,20c-7.8,0-14.8-2-20.9-5.8l-11.9,11.9
+                        c-1.6,1.6-3.6,2.3-5.7,2.3c-2,0-4.1-0.8-5.7-2.3c-3.1-3.1-3.1-8.2,0-11.3l22.6-22.6l5.7,5.7c4.1,4.1,9.3,6.1,15.8,6.1
+                        c4.9,0,7.4-0.9,8.4-1.4c1.1-0.6,1.5-1,1.5-2.6c0-0.2,0-0.5,0-0.6c-1.2-0.7-4.6-2-13.7-3.7c-24.4-4.7-40.2-21.8-40.2-43.6
+                        c0-19.1,11.3-34.9,29.4-41.1c4.2-1.4,8.7,0.8,10.2,5c1.4,4.2-0.8,8.7-5,10.2C160.2,242.5,153.2,252.2,153.2,264.5z M212.3,374
+                        c-1.8-4.1,0.1-8.8,4.2-10.5c31.5-13.6,51.8-44.6,51.8-78.8c0-40.7-28.2-75.2-67.1-83.8v22.3c8.7,2.8,16.8,7.9,24.1,15.2l5.7,5.7
+                        l-22.6,22.6c-1.6,1.6-3.6,2.3-5.7,2.3c-2,0-4.1-0.8-5.7-2.3c-3.1-3.1-3.1-8.2,0-11.3l10.9-10.9c-5.1-3.7-10.5-6.2-16.2-7.2l-6.5-1.2
+                        v-42.5c-0.3-1-0.4-2-0.2-3c0.1-1.1,0.5-2.2,1-3.1c1.3-2.7,4-4.6,7.2-4.6c1.5,0,2.8,0.4,4,1.1c49.9,7.2,87.1,50,87.1,100.8
+                        c0,40.7-24.1,77.4-61.4,93.5c-1,0.4-2.1,0.7-3.2,0.7C216.5,378.8,213.6,377,212.3,374z M201.2,353.3v23.6c0,0,0,0.1,0,0.1
+                        c0.5,4.4-2.6,8.4-7,8.9c-3.9,0.4-7.8,0.7-11.8,0.7c-56.2,0-101.8-45.7-101.8-101.8c0-49.7,35.5-91.9,84.4-100.4
+                        c4.4-0.7,8.5,2.2,9.2,6.5c0.8,4.4-2.2,8.5-6.5,9.2c-41.2,7.1-71.1,42.7-71.1,84.6c0,47.3,38.5,85.8,85.8,85.8c0.9,0,1.9,0,2.8,0
+                        v-29.7l6.3-1.3c14.8-3.1,23.6-13.2,23.6-26.9c0-4.4,3.6-8,8-8s8,3.6,8,8C231.1,331.8,219.8,347,201.2,353.3z"
+            ></path>
+            <path
+              fill="#1A0841"
+              class="primary-color"
+              d="M35.6,413.7H13.9v-56.9h21.8V413.7z M35.6,431.8H13.9v58.7h56.9v-21.8H35.6V431.8z M89,468.7v21.8h56.9
+                        v-21.8H89z"
+            ></path>
+            <path
+              class="dark-color"
+              d="M400,66.6c0,4.4-3.6,8-8,8h-15.8v15.8c0,4.4-3.6,8-8,8s-8-3.6-8-8V74.6h-15.8c-4.4,0-8-3.6-8-8s3.6-8,8-8h15.8V42.9
+                        c0-4.4,3.6-8,8-8s8,3.6,8,8v15.8H392C396.4,58.6,400,62.2,400,66.6z M77.9,32c-4.4,0-8,3.6-8,8c0,11.4-9.3,20.8-20.8,20.8
+                        c-4.4,0-8,3.6-8,8s3.6,8,8,8c20.3,0,36.8-16.5,36.8-36.8C85.9,35.6,82.3,32,77.9,32z M127.9,60.7c-11.4,0-20.8-9.3-20.8-20.8
+                        c0-4.4-3.6-8-8-8s-8,3.6-8,8c0,20.3,16.5,36.8,36.8,36.8c4.4,0,8-3.6,8-8S132.3,60.7,127.9,60.7z M127.9,82
+                        c-20.3,0-36.8,16.5-36.8,36.8c0,4.4,3.6,8,8,8s8-3.6,8-8c0-11.4,9.3-20.8,20.8-20.8c4.4,0,8-3.6,8-8S132.3,82,127.9,82z M49.2,82
+                        c-4.4,0-8,3.6-8,8s3.6,8,8,8c11.4,0,20.8,9.3,20.8,20.8c0,4.4,3.6,8,8,8s8-3.6,8-8C85.9,98.5,69.4,82,49.2,82z M455.7,189.8
+                        c5.9,0,10.8-4.8,10.8-10.8s-4.8-10.8-10.8-10.8c-5.9,0-10.8,4.8-10.8,10.8S449.7,189.8,455.7,189.8z M465.8,454.7c-4.4,0-8,3.6-8,8
+                        c0,5.7-4.7,10.4-10.4,10.4s-10.4-4.7-10.4-10.4c0-4.4-3.6-8-8-8s-8,3.6-8,8c0,14.6,11.8,26.4,26.4,26.4s26.4-11.8,26.4-26.4
+                        C473.8,458.3,470.2,454.7,465.8,454.7z"
+            ></path>
+          </svg>
+        </a>
+        <h2>Coins & Tokens</h2>
+        <h4>
+          Margin trading, Arbitrage trading, Futures trading, Spot trading
+        </h4>
+        <h5>
+          <span><i class="fa-solid fa-lightbulb"></i></span>Exposure to
+          high-frequency cryptocurrencies and tokens exchange trading
+        </h5>
+        <button>
+          <a href="coins-and-tokens.html">Explore this Cryptoasset</a>
+          <span><i class="fa-solid fa-chevron-right"></i></span>
+        </button>
+      </div>
+      <div class="explore-box">
+        <a href="Services.html">
+          <svg
+            version="1.1"
+            id="Layer_1_localnetwork"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            viewBox="0 0 512 512"
+            enable-background="new 0 0 512 512"
+            xml:space="preserve"
+          >
+            <g>
+              <linearGradient
+                id="SVGID_1_localnetwork"
+                gradientUnits="userSpaceOnUse"
+                x1="135.1419"
+                y1="134.9789"
+                x2="136.7023"
+                y2="50.715"
+                class="gradient-element"
+              >
+                <stop
+                  offset="0"
+                  class="primary-color-gradient"
+                  style="stop-color: #1a0841"
+                ></stop>
+                <stop
+                  offset="1"
+                  class="secondary-color-gradient"
+                  style="stop-color: #4f9da6"
+                ></stop>
+              </linearGradient>
+              <path
+                fill="url(#SVGID_1_localnetwork)"
+                class="accent-color"
+                d="M208.1,132.1H84.2c-11.6,0-21-9.4-21-21V77.5c0-11.8,9.6-21.4,21.4-21.4h123.4V132.1z"
+              ></path>
+              <linearGradient
+                id="SVGID_2_localnetwork"
+                gradientUnits="userSpaceOnUse"
+                x1="406.0192"
+                y1="279.5392"
+                x2="407.5797"
+                y2="195.2754"
+              >
+                <stop
+                  offset="0"
+                  class="primary-color-gradient"
+                  style="stop-color: #1a0841"
+                ></stop>
+                <stop
+                  offset="1"
+                  class="secondary-color-gradient"
+                  style="stop-color: #4f9da6"
+                ></stop>
+              </linearGradient>
+              <path
+                fill="url(#SVGID_2_localnetwork)"
+                class="secondary-color accent-color"
+                d="M479,276.7H355.1c-11.6,0-21-9.4-21-21V222c0-11.8,9.6-21.4,21.4-21.4H479V276.7z"
+              ></path>
+              <linearGradient
+                id="SVGID_3_localnetwork"
+                gradientUnits="userSpaceOnUse"
+                x1="134.2801"
+                y1="409.1655"
+                x2="135.8405"
+                y2="324.9016"
+              >
+                <stop
+                  offset="0"
+                  class="primary-color-gradient"
+                  style="stop-color: #1a0841"
+                ></stop>
+                <stop
+                  offset="1"
+                  class="secondary-color-gradient"
+                  style="stop-color: #4f9da6"
+                ></stop>
+              </linearGradient>
+              <path
+                fill="url(#SVGID_3_localnetwork)"
+                class="secondary-color accent-color"
+                d="M207.3,406.3H83.4c-11.6,0-21-9.4-21-21v-33.7c0-11.8,9.6-21.4,21.4-21.4h123.4V406.3z"
+              ></path>
+            </g>
+            <path
+              class="dark-color st1"
+              d="M33,151.7V42.9c0-5.9,4.8-10.8,10.8-10.8h128.7c4.4,0,8,3.6,8,8s-3.6,8-8,8H49v98.3h53.2c4.4,0,8,3.6,8,8s-3.6,8-8,8H43.7
+                        C37.8,162.4,33,157.6,33,151.7z M168.2,124.1c-4.4,0-8,3.6-8,8s3.6,8,8,8h31.2v6.3h-75.4c-4.4,0-8,3.6-8,8c0,0.2,0,0.3,0,0.5
+                        c0,0.2,0,0.3,0,0.5v26.3H58.3c-4.4,0-8,3.6-8,8s3.6,8,8,8H98V281c0,4.4,3.6,8,8,8s8-3.6,8-8v-83.2h74.3c4.4,0,8-3.6,8-8s-3.6-8-8-8
+                        h-56.4v-19.3h72.7c5.9,0,10.8-4.8,10.8-10.8V111H386v41.7c0,4.4,3.6,8,8,8s8-3.6,8-8V103c0-4.4-3.6-8-8-8H215.4V40.2
+                        c0-4.4-3.6-8-8-8s-8,3.6-8,8v84H168.2z M478.3,176.7c-4.4,0-8,3.6-8,8v84H439c-4.4,0-8,3.6-8,8s3.6,8,8,8h31.2v6.3h-75.4
+                        c-4.4,0-8,3.6-8,8c0,0.2,0,0.3,0,0.5c0,0.2,0,0.3,0,0.5v26.3h-57.7c-4.4,0-8,3.6-8,8s3.6,8,8,8h130c4.4,0,8-3.6,8-8s-3.6-8-8-8
+                        h-56.4V307h72.7c5.9,0,10.8-4.8,10.8-10.8V184.7C486.3,180.3,482.7,176.7,478.3,176.7z M303.8,187.5v108.8c0,5.9,4.8,10.8,10.8,10.8
+                        H373c4.4,0,8-3.6,8-8s-3.6-8-8-8h-53.2v-98.3h123.4c4.4,0,8-3.6,8-8s-3.6-8-8-8H314.6C308.7,176.7,303.8,181.5,303.8,187.5z
+                         M109.3,428.6c0-4.4-3.6-8-8-8H48.1v-98.3h123.4c4.4,0,8-3.6,8-8s-3.6-8-8-8H42.9c-5.9,0-10.8,4.8-10.8,10.8v108.8
+                        c0,5.9,4.8,10.8,10.8,10.8h58.4C105.7,436.6,109.3,433,109.3,428.6z M394,358c-4.4,0-8,3.6-8,8v17H214.5v-68.7c0-4.4-3.6-8-8-8
+                        s-8,3.6-8,8v84h-31.2c-4.4,0-8,3.6-8,8s3.6,8,8,8h31.2v6.3h-75.4c-4.4,0-8,3.6-8,8c0,0.2,0,0.3,0,0.5c0,0.2,0,0.3,0,0.5V456H57.4
+                        c-4.4,0-8,3.6-8,8s3.6,8,8,8h130c4.4,0,8-3.6,8-8s-3.6-8-8-8h-56.4v-19.3h72.7c5.9,0,10.8-4.8,10.8-10.8V399H394c4.4,0,8-3.6,8-8
+                        v-25C402,361.6,398.4,358,394,358z"
+            ></path>
+            <path
+              fill="#4F9DA6"
+              class="secondary-color dark-color"
+              d="M480.2,462l-36.7,36.7L406.8,462H480.2z"
+            ></path>
+            <path
+              d="M457.2,63.5c0,4.4-3.6,8-8,8h-15.8v15.8c0,4.4-3.6,8-8,8s-8-3.6-8-8V71.5h-15.8c-4.4,0-8-3.6-8-8s3.6-8,8-8h15.8V39.7
+                        c0-4.4,3.6-8,8-8s8,3.6,8,8v15.8h15.8C453.7,55.5,457.2,59.1,457.2,63.5z M320.1,437.8c0,9.2-7.5,16.8-16.8,16.8
+                        c-9.3,0-16.8-7.5-16.8-16.8c0-9.3,7.5-16.8,16.8-16.8C312.6,421,320.1,428.5,320.1,437.8z M385.1,437.8c0,9.2-7.5,16.8-16.8,16.8
+                        c-9.3,0-16.8-7.5-16.8-16.8c0-9.3,7.5-16.8,16.8-16.8C377.6,421,385.1,428.5,385.1,437.8z M231.6,39.8c0-9.2,7.5-16.8,16.8-16.8
+                        c9.2,0,16.8,7.5,16.8,16.8s-7.5,16.8-16.8,16.8C239.1,56.5,231.6,49,231.6,39.8z M276.5,249.7c0,24.4-19.9,44.3-44.3,44.3
+                        c-24.4,0-44.3-19.9-44.3-44.3c0-24.4,19.9-44.3,44.3-44.3C256.6,205.5,276.5,225.3,276.5,249.7z M260.5,249.7
+                        c0-15.6-12.7-28.3-28.3-28.3c-15.6,0-28.3,12.7-28.3,28.3c0,15.6,12.7,28.3,28.3,28.3C247.8,278,260.5,265.3,260.5,249.7z M69,211
+                        H22c-4.4,0-8,3.6-8,8c0,4.4,3.6,8,8,8h47c4.4,0,8-3.6,8-8C77,214.6,73.4,211,69,211z"
+            ></path>
+          </svg>
+        </a>
+        <h2>Crypto Staking</h2>
+        <h4>
+          Commit your crypto to a blockchain network and confirm transactions.
+        </h4>
+        <h5>
+          <span><i class="fa-solid fa-lightbulb"></i></span>This assets class is
+          available with cryptocurrencies that use the proof-of-stake model to
+          process payments
+        </h5>
+        <button>
+          <a href="crypto-staking.html">Explore this Cryptoasset</a>
+          <span><i class="fa-solid fa-chevron-right"></i></span>
+        </button>
+      </div>
+      <div class="explore-box">
+        <a href="Services.html">
+          <svg
+            version="1.1"
+            id="Layer_1_cashflow"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            viewBox="0 0 104.1 99.4"
+            style="enable-background: new 0 0 104.1 99.4"
+            xml:space="preserve"
+          >
+            <style type="text/css">
+              .st0 {
+                fill: #16035bf8;
+              }
+              .st1 {
+                fill: #363f40;
+              }
+            </style>
+            <path
+              id="scribbles-scribbles-34"
+              class="st0 accent-color blue-color"
+              d="M89.8,83.6l4.9-6.1l-0.3-0.2c-1.4,1.7-2.8,3.5-4.4,5c-3.6,3.4-7.3,6.6-10.9,9.9
+                        c-0.7,0.7-1.5,1.2-2.3,1.9c-0.9,0.7-1.8,2-2.7,0c-0.3,0.2-0.8,0.2-0.9,0.5c-1.1,2.2-2.4,2.5-4.6,0.8c0.7,1.8,0.5,2.3-1.4,2
+                        c-1.1-0.2-2.4,0.6-3.6,1c-5.5,1.6-11.1,1-16.8,1c-8.9,0-16.8-3.2-24.3-7.5c-6.2-3.5-11-8.9-15.6-14.4C0.9,70-0.2,61.7,0,52.8
+                        c0.2-7,1.9-14,5.1-20.2c2.5-5.1,6.4-9.2,10.1-13.5c3.7-4.3,8.7-5,13.7-5.8c1.2-0.2,2.6,0.4,3.8,0.9c1.4,0.5,2.6,1.5,4,2
+                        c5.8,2.1,10.2,6.3,14.8,10.1c3.9,3.3,7.6,6.8,11.5,10.3c8.5,7.7,17.2,15.3,25.6,23.1c2.8,2.6,4.9,5.8,7.3,8.8
+                        c0.5,0.7,0.9,1.4,1.3,2.2c0.8,1.9,1.2,3.6-0.5,5.5c-2.3,2.5-4.2,5.3-6.3,7.9L89.8,83.6z M40.7,59.1c-0.3,1.1-0.7,1.9-0.6,2.6
+                        c0.1,0.8,0.6,1.5,1.3,1.9c0.6,0.3,1.5-0.2,2.3-0.4c0-0.6-0.2-1.1-0.5-1.6C42.5,60.8,41.6,59.9,40.7,59.1z M46.1,35.4l0.4-0.5
+                        l-7.2-6.2l-0.6,0.7L46.1,35.4z M9.2,38.4c0.4,0.2,0.9,0.7,1.3,0.7c0.4-0.1,0.8-0.7,1.1-1.1l-2.2-2C9.4,36.7,9.3,37.4,9.2,38.4
+                        L9.2,38.4z M86.6,84.4L86.3,84c-1.5,1.1-3.1,2.2-4.6,3.3c-0.2,0.2-0.3,0.5-0.5,0.7c0.3,0,0.8,0.2,1,0C83.7,86.9,85.2,85.6,86.6,84.4
+                        L86.6,84.4z M78.5,81.4l0.6,0.6l3.1-3.4l-0.3-0.3L78.5,81.4z M70.7,73.9l0.4,0.4c0.7-0.8,1.5-1.6,2.1-2.4c0.1-0.1,0-0.5-0.1-0.8
+                        c-0.2,0.1-0.6,0.1-0.7,0.2C71.8,72.2,71.3,73,70.7,73.9L70.7,73.9z"
+            ></path>
+            <g id="Group_4436" transform="translate(299.884 -131.602)">
+              <g id="Group_4435" transform="translate(160 148)">
+                <g id="Group_4434">
+                  <g id="Group_4426" transform="translate(0 32.076)">
+                    <g id="Group_4416" transform="translate(10.692 10.692)">
+                      <path
+                        id="Path_17903"
+                        class="st1 dark-color"
+                        d="M-367.8,21H-440c-0.7,0-1.3-0.6-1.3-1.3v-5.3h2.7v4h69.5v-32.1h-4v-2.7h5.3
+                                            c0.7,0,1.3,0.6,1.3,1.3v34.7C-366.5,20.4-367.1,21-367.8,21z"
+                      ></path>
+                    </g>
+                    <g id="Group_4417" transform="translate(5.346 5.346)">
+                      <path
+                        id="Path_17904"
+                        class="st1 dark-color"
+                        d="M-367.8,21H-440c-0.7,0-1.3-0.6-1.3-1.3v-5.3h2.7v4h69.5v-32.1h-4v-2.7h5.3
+                                            c0.7,0,1.3,0.6,1.3,1.3v34.7C-366.5,20.4-367.1,21-367.8,21z"
+                      ></path>
+                    </g>
+                    <g id="Group_4425">
+                      <g id="Group_4418">
+                        <path
+                          id="Path_17905"
+                          class="st1 dark-color"
+                          d="M-367.8,21H-440c-0.7,0-1.3-0.6-1.3-1.3v-34.7c0-0.7,0.6-1.3,1.3-1.3h72.2
+                                                c0.7,0,1.3,0.6,1.3,1.3v34.7C-366.5,20.4-367.1,21-367.8,21z M-438.6,18.4h69.5v-32.1h-69.5V18.4z"
+                        ></path>
+                      </g>
+                      <g id="Group_4419" transform="translate(5.346 5.346)">
+                        <path
+                          id="Path_17906"
+                          class="st1 dark-color"
+                          d="M-382.5,10.3H-436c-0.4,0-0.7-0.1-0.9-0.4l-4-4c-0.3-0.3-0.4-0.6-0.4-0.9v-16
+                                                c0-0.4,0.1-0.7,0.4-0.9l4-4c0.3-0.3,0.6-0.4,0.9-0.4h53.5c0.4,0,0.7,0.1,0.9,0.4l4,4c0.3,0.3,0.4,0.6,0.4,0.9V5
+                                                c0,0.4-0.1,0.7-0.4,0.9l-4,4C-381.8,10.2-382.1,10.3-382.5,10.3z M-435.4,7.7h52.4l3.2-3.2v-14.9l-3.2-3.2h-52.4l-3.2,3.2V4.4
+                                                L-435.4,7.7z"
+                        ></path>
+                      </g>
+                      <g id="Group_4420" transform="translate(21.384 17.374)">
+                        <rect
+                          id="Rectangle_2223"
+                          x="-441.1"
+                          y="-16.7"
+                          class="st1 dark-color"
+                          width="3"
+                          height="3"
+                        ></rect>
+                      </g>
+                      <g id="Group_4421" transform="translate(16.038 17.374)">
+                        <rect
+                          id="Rectangle_2224"
+                          x="-440.8"
+                          y="-16.7"
+                          class="st1 dark-color"
+                          width="2"
+                          height="3"
+                        ></rect>
+                      </g>
+                      <g id="Group_4422" transform="translate(56.132 17.374)">
+                        <rect
+                          id="Rectangle_2225"
+                          x="-440.9"
+                          y="-16.7"
+                          class="st1 dark-color"
+                          width="2"
+                          height="3"
+                        ></rect>
+                      </g>
+                      <g id="Group_4423" transform="translate(50.786 17.374)">
+                        <rect
+                          id="Rectangle_2226"
+                          x="-441.6"
+                          y="-16.7"
+                          class="st1 dark-color"
+                          width="3"
+                          height="3"
+                        ></rect>
+                      </g>
+                      <g id="Group_4424" transform="translate(29.402 10.692)">
+                        <path
+                          id="Path_17907"
+                          class="st1 dark-color"
+                          d="M-433.3-0.4c-4.4,0-8-3.6-8-8s3.6-8,8-8s8,3.6,8,8l0,0C-425.3-4-428.9-0.4-433.3-0.4z
+                                                 M-433.3-13.7c-3,0-5.3,2.4-5.3,5.3s2.4,5.3,5.3,5.3s5.3-2.4,5.3-5.3v0C-427.9-11.3-430.3-13.7-433.3-13.7L-433.3-13.7z"
+                        ></path>
+                      </g>
+                    </g>
+                  </g>
+                  <g id="Group_4433">
+                    <g id="Group_4427" transform="translate(24.448 21.776)">
+                      <path
+                        id="Path_17908"
+                        class="st1 dark-color"
+                        d="M-435-8.8c-0.4,0-0.7-0.1-0.9-0.4l-5.3-5.3l1.9-1.9l4.4,4.4l4.4-4.4l1.9,1.9l-5.3,5.3
+                                            C-434.3-8.9-434.7-8.8-435-8.8z"
+                      ></path>
+                    </g>
+                    <g id="Group_4428" transform="translate(48.505 21.776)">
+                      <path
+                        id="Path_17909"
+                        class="st1 dark-color"
+                        d="M-435-8.8c-0.4,0-0.7-0.1-0.9-0.4l-5.3-5.3l1.9-1.9l4.4,4.4l4.4-4.4l1.9,1.9l-5.3,5.3
+                                            C-434.3-8.9-434.7-8.8-435-8.8z"
+                      ></path>
+                    </g>
+                    <g id="Group_4429" transform="translate(36.476)">
+                      <path
+                        id="Path_17910"
+                        class="st1 dark-color"
+                        d="M-430.6-8.8l-4.4-4.4l-4.4,4.4l-1.9-1.9l5.3-5.3c0.5-0.5,1.4-0.5,1.9,0c0,0,0,0,0,0
+                                            l5.3,5.3L-430.6-8.8z"
+                      ></path>
+                    </g>
+                    <g id="Group_4430" transform="translate(0 12.029)">
+                      <path
+                        id="Path_17911"
+                        class="st1 dark-color"
+                        d="M-409.2-0.4h-2.7v-13.4h-29.4v-2.7h30.7c0.7,0,1.3,0.6,1.3,1.3V-0.4z"
+                      ></path>
+                    </g>
+                    <g id="Group_4431" transform="translate(53.459 12.029)">
+                      <path
+                        id="Path_17912"
+                        class="st1 dark-color"
+                        d="M-438.6-0.4h-2.7v-14.7c0-0.7,0.6-1.3,1.3-1.3h30.7v2.7h-29.4L-438.6-0.4z"
+                      ></path>
+                    </g>
+                    <g id="Group_4432" transform="translate(41.431 1.337)">
+                      <rect
+                        id="Rectangle_2227"
+                        x="-441.2"
+                        y="-16.5"
+                        class="st1 dark-color"
+                        width="3"
+                        height="28"
+                      ></rect>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </a>
+        <h2>Yield Farming</h2>
+        <h4>
+          Lend or borrow crypto on a DeFi platform and earn cryptocurrency
+        </h4>
+        <h5>
+          <span><i class="fa-solid fa-lightbulb"></i></span>Actively managed
+          exposure to DeFi operations to maximize returns for investors
+        </h5>
+        <button>
+          <a href="yield-farming.html">Explore this Cryptoasset</a>
+          <span><i class="fa-solid fa-chevron-right"></i></span>
+        </button>
+      </div>
+      <div class="explore-box">
+        <a href="Services.html">
+          <svg
+            version="1.1"
+            id="Layer_1_cloud_computing"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            viewBox="0 0 512 512"
+            enable-background="new 0 0 512 512"
+            xml:space="preserve"
+          >
+            <linearGradient
+              id="SVGID_1_cloud_computing"
+              gradientUnits="userSpaceOnUse"
+              x1="294.4852"
+              y1="450.4337"
+              x2="294.4852"
+              y2="99.2211"
+              class="gradient-element"
+            >
+              <stop
+                offset="0"
+                class="primary-color-gradient"
+                style="stop-color: #1a0841"
+              ></stop>
+              <stop
+                offset="1"
+                class="secondary-color-gradient"
+                style="stop-color: #4f9da6"
+              ></stop>
+            </linearGradient>
+            <path
+              fill="url(#SVGID_1_cloud_computing)"
+              class="accent-color"
+              d="M198.5,328.4h-33.9c-11.6,0-22.5-2.5-32.4-7c-6.7-3-4.6-13,2.8-13h63.6V328.4z M401.6,209.9h-0.7
+                        c-4.4-30.4-28.6-54.5-59-58.6c0,0-9.2-79.6-88.4-79.6h-0.2c-8.1,0-12.9,9.3-8.4,16c5.1,7.5,8.7,15.1,11.3,21.9
+                        c4.5,12.1,13.6,22,25.3,27.5c19,8.8,33.3,25.9,38.2,46.7c0.9,3.6,3.9,6.2,7.6,6.5c0,0,0,0,0.1,0c30.4,2.9,54.1,28.9,53.5,60.1
+                        c-0.6,32.4-27.7,58.2-60.1,58.2h-64.5v0l-3.7,0c-11.1,0-20,9-20,20l0,0v87.4c0,5.4-4.4,9.8-9.8,9.8h-11.3c-3.1,0-5.7,2.5-5.7,5.7
+                        v5.7c0,3.1,2.5,5.7,5.7,5.7l19.3,22.3l81.5-90.2l-21-21l-35,25.2v-50.6h144.5c32.5,0,59.7-25.8,60.1-58.4
+                        C461.4,236.9,434.6,209.9,401.6,209.9z"
+            ></path>
+            <path
+              d="M468.9,269.1c0,37.1-30.2,67.3-67.3,67.3H265.7v28.4l18.2-18.2c3.1-3.1,8.2-3.1,11.3,0l24,24c3.1,3.1,3.1,8.2,0,11.3
+                        l-84.9,84.9c-1.6,1.6-3.6,2.3-5.7,2.3c-2,0-4.1-0.8-5.7-2.3l-85-84.9c-1.5-1.5-2.3-3.5-2.3-5.7c0-2.1,0.8-4.2,2.3-5.7l24-24
+                        c1.5-1.5,3.5-2.3,5.7-2.3c0,0,0,0,0,0c2.1,0,4.2,0.8,5.7,2.3l19.7,19.7L192.9,239c0-2.1,0.8-4.2,2.3-5.7c1.5-1.5,3.5-2.3,5.7-2.3
+                        H257c4.4,0,8,3.6,8,8v39.5c0,4.4-3.6,8-8,8s-8-3.6-8-8V247h-40.1l0.1,138.7c0,3.2-1.9,6.2-4.9,7.4c-3,1.2-6.4,0.6-8.7-1.7
+                        l-27.7-27.7L155,376.2l73.7,73.6l73.6-73.6l-12.7-12.7l-26.2,26.2c-2.3,2.3-5.7,3-8.7,1.7c-3-1.2-4.9-4.2-4.9-7.4v-79.3
+                        c0-4.4,3.6-8,8-8s8,3.6,8,8v15.5h135.9c28.3,0,51.3-23,51.3-51.3s-23-51.3-51.3-51.3h-0.7c-4,0-7.4-2.9-7.9-6.9
+                        c-3.9-26.9-25.3-48.2-52.2-51.8c-4.4-0.6-7.4-4.6-6.8-9c0.6-4.4,4.6-7.4,9-6.8c31.7,4.3,57.4,28.1,64.6,58.8
+                        C441.9,205.1,468.9,234,468.9,269.1z M179.2,336.4c4.4,0,8-3.6,8-8s-3.6-8-8-8h-14.6c-39.2,0-71-31.9-71-71
+                        c0-42.5,25.7-69.9,72.3-77.3c3.9-0.6,6.7-4,6.7-7.9v-3.7c0-44.6,36.3-80.9,80.9-80.9c30.5,0,58.1,16.9,72.1,44.2
+                        c2,3.9,6.8,5.5,10.8,3.5c3.9-2,5.5-6.8,3.5-10.8c-16.7-32.6-49.8-52.9-86.3-52.9c-52.4,0-95.2,41.8-96.8,93.9
+                        c-50.4,10.3-79.1,43.5-79.1,91.9c0,48,39,87,87,87H179.2z"
+            ></path>
+            <g>
+              <path
+                fill="#1A0841"
+                class="primary-color accent-color"
+                d="M21.6,433.1h16.4v16.4H21.6V433.1z"
+              ></path>
+              <path
+                fill="#1A0841"
+                class="primary-color accent-color"
+                d="M21.6,292.1h16.4v114.4H21.6V292.1z"
+              ></path>
+              <path
+                fill="#4F9DA6"
+                class="secondary-color accent-color"
+                d="M21.6,473.1h16.4v16.4H21.6V473.1z M475,108.7l-60.9-60.9H475V108.7z"
+              ></path>
+            </g>
+            <path
+              d="M53.4,49.4c0,4.4-3.6,8-8,8h-3.9v3.9c0,4.4-3.6,8-8,8s-8-3.6-8-8v-3.9h-3.9c-4.4,0-8-3.6-8-8s3.6-8,8-8h3.9v-3.9
+                        c0-4.4,3.6-8,8-8s8,3.6,8,8v3.9h3.9C49.8,41.4,53.4,45,53.4,49.4z M373,120.7c0-4.4-3.6-8-8-8h-86.8c-4.4,0-8,3.6-8,8s3.6,8,8,8H365
+                        C369.4,128.7,373,125.1,373,120.7z M404.7,151.7c0-4.4-3.6-8-8-8h-68.2c-4.4,0-8,3.6-8,8s3.6,8,8,8h68.2
+                        C401.1,159.7,404.7,156.1,404.7,151.7z M456,461.2h-86.8c-4.4,0-8,3.6-8,8s3.6,8,8,8H456c4.4,0,8-3.6,8-8S460.4,461.2,456,461.2z
+                         M402.8,441.1c0-4.4-3.6-8-8-8h-57.4c-4.4,0-8,3.6-8,8s3.6,8,8,8h57.4C399.3,449.1,402.8,445.5,402.8,441.1z M115.4,112.7H99.6V96.9
+                        c0-4.4-3.6-8-8-8s-8,3.6-8,8v15.8H67.9c-4.4,0-8,3.6-8,8s3.6,8,8,8h15.8v15.8c0,4.4,3.6,8,8,8s8-3.6,8-8v-15.8h15.8c4.4,0,8-3.6,8-8
+                        S119.8,112.7,115.4,112.7z"
+            ></path>
+          </svg>
+        </a>
+        <h2>Crypto Infrastructure</h2>
+        <h4>
+          Marketplace, utility, blockchain protocols, decentralized exchanges
+        </h4>
+        <h5>
+          <span><i class="fa-solid fa-lightbulb"></i></span>Infrastructures
+          provide platforms for crypto-based transactions using decentralized
+          applications
+        </h5>
+        <button>
+          <a href="crypto-infrastructure.html">Explore this Cryptoasset</a>
+          <span><i class="fa-solid fa-chevron-right"></i></span>
+        </button>
+      </div>
+      <div class="explore-box">
+        <a href="Services.html">
+          <svg
+            version="1.1"
+            id="Layer_1_creative"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            viewBox="0 0 512 512"
+            enable-background="new 0 0 512 512"
+            xml:space="preserve"
+          >
+            <linearGradient
+              id="SVGID_1_creative"
+              gradientUnits="userSpaceOnUse"
+              x1="310.3775"
+              y1="414.8269"
+              x2="310.3775"
+              y2="86.9705"
+              class="gradient-element"
+            >
+              <stop
+                offset="0"
+                class="primary-color-gradient"
+                style="stop-color: #1a0841"
+              ></stop>
+              <stop
+                offset="1"
+                class="secondary-color-gradient"
+                style="stop-color: #4f9da6"
+              ></stop>
+            </linearGradient>
+            <path
+              fill="url(#SVGID_1_creative)"
+              class="accent-color"
+              d="M422.7,249.3c-0.1,89.8-74,162.9-163.8,162.2c-15.1-0.1-29.6-2.3-43.4-6.2
+                        c-15.5-4.4-22.6-22.8-13.5-36.1c28.5-42,139.3-22.5,139.3-120.8c0-110.2-83.2-78.8-105.7-122.1c-9.4-18.1,4-39.8,24.3-39.8
+                        c0.1,0,0.2,0,0.3,0C350.1,86.5,422.9,159.4,422.7,249.3z"
+            ></path>
+            <path
+              fill="#4F9DA6"
+              class="secondary-color dark-color"
+              d="M473.5,110.2l-75.8-75.8h75.8V110.2z"
+            ></path>
+            <path
+              d="M466.6,460.1c0,4.4-3.6,8-8,8h-3.9v3.9c0,4.4-3.6,8-8,8s-8-3.6-8-8v-3.9h-3.9c-4.4,0-8-3.6-8-8s3.6-8,8-8h3.9v-3.9
+                        c0-4.4,3.6-8,8-8s8,3.6,8,8v3.9h3.9C463,452.1,466.6,455.7,466.6,460.1z M115.7,261.4H56.5c-4.4,0-8,3.6-8,8s3.6,8,8,8h59.2
+                        c4.4,0,8-3.6,8-8S120.1,261.4,115.7,261.4z M133.2,231.3H27.4c-4.4,0-8,3.6-8,8s3.6,8,8,8h105.9c4.4,0,8-3.6,8-8
+                        S137.6,231.3,133.2,231.3z M72.9,57.3h59.2c4.4,0,8-3.6,8-8s-3.6-8-8-8H72.9c-4.4,0-8,3.6-8,8S68.5,57.3,72.9,57.3z M250.1,458.1
+                        h-59.2c-4.4,0-8,3.6-8,8s3.6,8,8,8h59.2c4.4,0,8-3.6,8-8S254.5,458.1,250.1,458.1z"
+            ></path>
+            <path
+              d="M262,82.1c-42.7,0-83.5,16-114.8,45.1c-31.1,28.9-50.1,68.1-53.4,110.3c-0.3,4.4,2.9,8.3,7.3,8.6c4.4,0.3,8.3-2.9,8.6-7.3
+                        c2.8-34.9,17.4-66.5,39.8-90.8l36.7,36.7c2.2,2.2,5.4,2.9,8.3,1.9c2.9-1,5-3.5,5.3-6.6c0.5-3.6,2.1-6.9,4.7-9.5
+                        c3.1-3.1,7.2-4.8,11.6-4.8c4.4,0,8.5,1.7,11.6,4.8c6.4,6.4,6.4,16.8,0,23.1c-2.6,2.6-5.9,4.2-9.5,4.7c-3,0.4-5.6,2.5-6.6,5.3
+                        c-1,2.9-0.2,6.1,1.9,8.3l38.2,38.2l-29.4,29.4c-1.2-1.9-2.7-3.7-4.4-5.4c-12.6-12.6-33.1-12.6-45.8,0c-12.6,12.6-12.6,33.1,0,45.8
+                        c1.7,1.7,3.5,3.1,5.4,4.4l-29,29c-20.5-22.7-34.3-51.7-38.1-84c-0.5-4.4-4.5-7.5-8.9-7c-4.4,0.5-7.5,4.5-7,8.9
+                        c10.1,84.8,82.1,148.7,167.6,148.7c93.1,0,168.8-75.7,168.8-168.8C430.7,157.8,355,82.1,262,82.1z M375.5,353l-37.7-37.7
+                        c-2.2-2.2-5.4-2.9-8.3-1.9c-2.9,1-5,3.5-5.3,6.6c-0.5,3.6-2.1,6.9-4.7,9.5c-3.1,3.1-7.2,4.8-11.6,4.8c-4.4,0-8.5-1.7-11.6-4.8
+                        c-6.4-6.4-6.4-16.8,0-23.1c2.6-2.6,5.9-4.2,9.5-4.7c3-0.4,5.6-2.5,6.6-5.3c1-2.9,0.2-6.1-1.9-8.3l-38.2-38.2l29.4-29.4
+                        c1.2,1.9,2.7,3.7,4.4,5.4c12.6,12.6,33.1,12.6,45.8,0c12.6-12.6,12.6-33.1,0-45.8c-1.7-1.7-3.5-3.1-5.4-4.4l28.1-28.1
+                        c24.9,27.2,40.2,63.4,40.2,103.1C414.7,290.1,399.9,326,375.5,353z M238.9,159.1c-6.1-6.1-14.2-9.5-22.9-9.5
+                        c-8.6,0-16.8,3.4-22.9,9.5c-1.7,1.7-3.1,3.5-4.4,5.4l-27.9-27.9c27.1-24,62.6-38.5,101.1-38.5c38.8,0,74.2,14.5,101.2,38.4
+                        l-36.7,36.7c-2.2,2.2-2.9,5.4-1.9,8.3c1,2.9,3.5,5,6.6,5.3c3.6,0.5,6.9,2.1,9.5,4.7c6.4,6.4,6.4,16.8,0,23.1
+                        c-6.4,6.4-16.8,6.4-23.1,0c-2.6-2.6-4.2-5.9-4.7-9.5c-0.4-3-2.5-5.6-5.3-6.6c-2.9-1-6.1-0.2-8.3,1.9L262,237.7l-28.5-28.5
+                        c1.9-1.2,3.7-2.7,5.4-4.4C251.5,192.2,251.5,171.7,238.9,159.1z M159.8,364.4l37.8-37.8c2.2-2.2,2.9-5.4,1.9-8.3
+                        c-1-2.9-3.5-5-6.6-5.3c-3.6-0.5-6.9-2.1-9.5-4.7c-6.4-6.4-6.4-16.8,0-23.1c6.4-6.4,16.8-6.4,23.1,0c2.6,2.6,4.2,5.9,4.7,9.5
+                        c0.4,3,2.5,5.6,5.3,6.6c2.9,1,6.1,0.2,8.3-1.9l37.2-37.2l28.5,28.5c-1.9,1.2-3.7,2.7-5.4,4.4c-12.6,12.6-12.6,33.1,0,45.8
+                        c6.1,6.1,14.2,9.5,22.9,9.5s16.8-3.4,22.9-9.5c1.7-1.7,3.1-3.5,4.4-5.4l29,29c-27.1,24.4-62.9,39.3-102.2,39.3
+                        C222.9,403.6,187,388.9,159.8,364.4z"
+            ></path>
+          </svg>
+        </a>
+        <h2>Non-Fungible Tokens</h2>
+        <h4>NFTs, Decentralized Autonomous Organizations, Smart Contracts</h4>
+        <h5>
+          <span><i class="fa-solid fa-lightbulb"></i></span>NFTs, DAOs, and
+          smart contract provide exposure to the next phase of cryptoassets
+        </h5>
+        <button>
+          <a href="non-fungible-tokens.html">Explore this Cryptoasset</a>
+          <span><i class="fa-solid fa-chevron-right"></i></span>
+        </button>
+      </div>
+      <div class="explore-box">
+        <a href="Services.html">
+          <svg
+            version="1.1"
+            id="Layer_1_eart"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            viewBox="0 0 512 512"
+            enable-background="new 0 0 512 512"
+            xml:space="preserve"
+          >
+            <linearGradient
+              id="SVGID_1_eart"
+              gradientUnits="userSpaceOnUse"
+              x1="261.2362"
+              y1="476.9018"
+              x2="261.2362"
+              y2="33.0749"
+              class="gradient-element"
+            >
+              <stop
+                offset="0"
+                class="primary-color-gradient"
+                style="stop-color: #1a0841"
+              ></stop>
+              <stop
+                offset="1"
+                class="secondary-color-gradient"
+                style="stop-color: #4f9da6"
+              ></stop>
+            </linearGradient>
+            <path
+              fill="url(#SVGID_1_eart)"
+              class="accent-color"
+              d="M220.3,226.6h-35.4v35.4h-36l-27.5-26.5v-8.9h35.4c9.7,0,17.7-8,17.7-17.7v-19.5
+                        c0-8.8,7.1-15.9,15.9-15.9h19.5c19.4,0,35.4-15.9,35.4-35.4c0,0,1.9-31.1-14-48.6c-2.5-0.6-5-1.1-7.6-1.5c10.4-1.9,21-2.9,31.9-2.9
+                        c13.4,0,26.5,1.6,39.1,4.4c15.9,17.5,14,48.6,14,48.6c0,19.5-15.9,35.4-35.4,35.4H238v35.4C238,218.6,230,226.6,220.3,226.6z
+                         M39.4,241.3c-2,0-3.9,0.3-5.6,1c6.4,2.3,11,8.4,11,15.6c0,7.2-4.6,13.3-11,15.6c1.8,0.6,3.6,1,5.6,1c9.1,0,16.6-7.5,16.6-16.6
+                        S48.5,241.3,39.4,241.3z M251,56.4c1.8,0.6,3.6,1,5.6,1c9.1,0,16.6-7.5,16.6-16.6c0-9.1-7.5-16.6-16.6-16.6c-2,0-3.9,0.3-5.6,1
+                        c6.4,2.3,11,8.4,11,15.6C262,47.9,257.4,54.1,251,56.4z M255.3,458.3c-2,0-3.9,0.3-5.6,1c6.4,2.3,11,8.4,11,15.6
+                        c0,7.2-4.6,13.3-11,15.6c1.8,0.6,3.6,1,5.6,1c9.1,0,16.6-7.5,16.6-16.6C271.9,465.8,264.5,458.3,255.3,458.3z M472.1,241.3
+                        c-2,0-3.9,0.3-5.6,1c6.4,2.3,11,8.4,11,15.6c0,7.2-4.6,13.3-11,15.6c1.8,0.6,3.6,1,5.6,1c9.1,0,16.6-7.5,16.6-16.6
+                        S481.2,241.3,472.1,241.3z M360,357.3c-4.6-14.3-17.7-24.6-33.6-24.6h-17.7v-53.1c0-9.7-8-17.7-17.7-17.7h-63.5
+                        c9.7,0,17.7,8,17.7,17.7v35.6c0,9.6,7.8,17.5,17.5,17.5h0.2c15.9,0,29,10.3,33.6,24.6c0.1-0.1,0.1-0.2,0.2-0.2
+                        c2.2,6.7,3.5,17,4.2,26.2c0.9,11-4.3,21.7-13.5,27.6c-15,9.6-31.5,17-49.1,21.8l0,5.2c5.7,0.5,11.5,0.9,17.3,0.9
+                        c41.4,0,79.6-14.3,109.6-38.2c-0.2-7.8-1.1-31.5-5.1-43.5C360.1,357.1,360.1,357.2,360,357.3z"
+            ></path>
+            <path
+              d="M442.4,257.8c0,16.4,13.4,29.8,29.8,29.8s29.8-13.4,29.8-29.8c0-13.7-9.3-25.2-21.8-28.7c0-0.2,0-0.5-0.1-0.7
+                        c-0.1-0.4-0.3-2.1-0.7-3.9c-0.6-3.8-0.8-5.1-0.9-5.6c-3.1-16-7.8-31.5-14-46.1c-15.7-36.7-40.8-68.7-72.6-92.5
+                        c-30.9-23.1-67.4-38-105.5-43.2c-0.5-0.1-1.1-0.1-1.6-0.1C282.9,22.4,270.3,11,255.1,11c-15.2,0-27.8,11.4-29.6,26.2
+                        c-0.5,0-1,0-1.6,0.1c-19.4,2.6-38.7,8-57.4,16c-35.9,15.3-67.4,39.8-91,70.6c-22.9,29.9-38.1,65.4-44.1,102.6
+                        c-0.1,0.8-0.1,1.6,0,2.3c-13.3,3-23.2,14.9-23.2,29.1c0,13.7,9.3,25.2,21.8,28.7c0,0.4,0,0.7,0,1.1c1.6,14.4,4.7,28.7,9.1,42.5
+                        c2.4,7.7,5,14.5,7.7,20.9c20,46.8,55.6,86,100.3,110.2c23.5,12.8,48.8,21.3,75.3,25.3c0.4,0.1,0.8,0.1,5.2,0.5c0.1,0,0.2,0,0.2,0
+                        c4.7,10.4,15.1,17.7,27.2,17.7c12.1,0,22.5-7.2,27.2-17.5c0.1,0,0.3,0,0.4,0c4.2-0.3,4.5-0.4,5-0.4c19.5-2.8,38.7-8.2,57.1-16
+                        c33.8-14.4,63.8-37,86.8-65.3c22.3-27.4,38.1-60.1,45.7-94.7c1-4.3-1.8-8.6-6.1-9.5c-4.3-1-8.6,1.8-9.5,6.1
+                        c-14.7,66.4-60.7,122-123.2,148.7c-17,7.3-34.8,12.3-52.9,14.9c-0.2,0-0.5,0-0.9,0.1c-1.5-11.4-9.6-20.9-20.3-24.3
+                        c38.4-1.8,75.8-15.8,105.9-39.7c44.6-35.2,70.2-88,70.2-144.9c0-32.1-8.3-63.6-24.1-91.3c-15.3-26.9-37.3-49.7-63.6-65.9
+                        c-3.8-2.3-8.7-1.2-11,2.6c-2.3,3.8-1.2,8.7,2.6,11c50.2,31,80.2,84.7,80.2,143.7c0,46.5-18.8,90.1-52,121.8
+                        c-0.7-10-2.1-21.6-4.7-29.2c-0.2-0.7-0.6-1.4-1-2c-6.4-16.7-22.3-27.8-40.4-27.8h-9.7v-45c0-14.2-11.5-25.7-25.7-25.7h-98.1v-19.4
+                        h27.4c14.2,0,25.7-11.5,25.7-25.7v-27.4h27.4c23.8,0,43.2-19.3,43.4-43.1c0.2-3.5,1.3-35.1-16-54.2c0,0,0,0-0.1-0.1
+                        c-0.1-0.1-0.2-0.2-0.3-0.3c-0.1-0.1-0.2-0.2-0.3-0.3c-0.1-0.1-0.2-0.1-0.2-0.2c-0.1-0.1-0.2-0.2-0.4-0.3c-0.1,0-0.1-0.1-0.2-0.1
+                        c-0.2-0.1-0.3-0.2-0.5-0.3c0,0-0.1,0-0.1-0.1c-0.2-0.1-0.4-0.2-0.6-0.3c0,0-0.1,0-0.1,0c-0.2-0.1-0.4-0.2-0.6-0.2
+                        c-0.1,0-0.1,0-0.2,0c-0.2-0.1-0.4-0.1-0.6-0.2c0,0,0,0,0,0c-13.6-3.1-27.3-4.6-40.8-4.6C177,77.1,106.9,127,81.2,201.3
+                        c-6.9,19.1-10.4,39.5-10.4,60.7c0,46.2,17.1,90.4,48.3,124.5c30.9,33.9,72.9,54.9,118.3,59.4c0,0,0.1,0,0.1,0c0,0,0,0,0,0
+                        c2.9,0.3,5.8,0.5,8.5,0.6c-10.7,3.4-18.9,12.8-20.5,24.2c-0.4,0-0.7-0.1-0.9-0.1c-24.5-3.7-48-11.6-69.9-23.5
+                        c-41.6-22.5-74.7-58.9-93.2-102.4c-2.5-5.9-4.9-12.3-7.2-19.4c-4-12.6-6.8-25.7-8.3-38.8c12.5-3.5,21.7-15,21.7-28.7
+                        c0-13.2-8.7-24.5-20.7-28.4c0-0.2,0.1-0.3,0.1-0.5c11.5-72.2,58.4-132.4,125.6-161.1c17.3-7.4,35.3-12.4,53.3-14.8
+                        c0.6-0.1,1.1-0.2,1.7-0.4c4.6,10.5,15.1,17.9,27.3,17.9c12.2,0,22.8-7.4,27.4-18c0.5,0.2,1.1,0.3,1.7,0.4
+                        c73.2,10,136.6,58.3,165.6,126.1c5.8,13.5,10.2,27.9,13,42.8c0.1,0.5,0.5,2.9,0.9,5.2c0.1,0.7,0.2,1.5,0.3,2.1
+                        C451.5,232.8,442.4,244.3,442.4,257.8z M255.7,93.1c11.5,0,23.1,1.2,34.7,3.7c11.7,15.1,10.4,40.6,10.3,40.9c0,0.2,0,0.3,0,0.5
+                        c0,15.1-12.3,27.4-27.4,27.4H238c-4.4,0-8,3.6-8,8v35.4c0,5.3-4.3,9.7-9.7,9.7h-35.4c-4.4,0-8,3.6-8,8v35.4c0,4.4,3.6,8,8,8H291
+                        c5.3,0,9.7,4.3,9.7,9.7v53c0,4.4,3.6,8,8,8h17.7c11.9,0,22.3,7.7,26,19c0.2,0.6,0.5,1.2,0.8,1.8c2.3,8.4,3.5,22.9,4,35.3
+                        c-29.1,22-65,34-101.5,34c-3,0-6.1-0.1-9.4-0.3L246,368c0-4.4-3.5-7.9-7.9-8c-0.1,0-13.1-0.3-21.1-9.9c-6.4-7.6-8.4-19.3-5.9-34.8
+                        c0.4-2.6-0.5-5.2-2.4-7L98,201.8C122.8,136.6,185.5,93.1,255.7,93.1z M86.8,261.9c0-14.9,1.9-29.4,5.7-43.3L194.7,317
+                        c-2.2,18.4,1.3,33,10.2,43.6c7.9,9.2,18.1,13,25.1,14.4l0.3,53.8C147.9,416.6,86.8,346.3,86.8,261.9z M255.1,461.1
+                        c7.6,0,13.8,6.2,13.8,13.8s-6.2,13.8-13.8,13.8s-13.8-6.2-13.8-13.8S247.5,461.1,255.1,461.1z M51.9,257.8c0,7.6-6.2,13.8-13.8,13.8
+                        c-7.6,0-13.8-6.2-13.8-13.8S30.5,244,38.1,244C45.7,244,51.9,250.2,51.9,257.8z M255.1,54.6c-7.6,0-13.8-6.2-13.8-13.8
+                        S247.5,27,255.1,27s13.8,6.2,13.8,13.8S262.7,54.6,255.1,54.6z M472.2,244c7.6,0,13.8,6.2,13.8,13.8s-6.2,13.8-13.8,13.8
+                        s-13.8-6.2-13.8-13.8S464.6,244,472.2,244z"
+            ></path>
+            <path
+              fill="#000000"
+              d="M33.8,62l2.6-2.6l-2.6-2.6c-3.1-3.1-3.1-8.2,0-11.3c3.1-3.1,8.2-3.1,11.3,0l2.6,2.6l2.6-2.6
+                        c3.1-3.1,8.2-3.1,11.3,0c3.1,3.1,3.1,8.2,0,11.3L59,59.4l2.6,2.6c3.1,3.1,3.1,8.2,0,11.3c-1.6,1.6-3.6,2.3-5.7,2.3s-4.1-0.8-5.7-2.3
+                        l-2.6-2.6l-2.6,2.6c-1.6,1.6-3.6,2.3-5.7,2.3s-4.1-0.8-5.7-2.3C30.6,70.2,30.6,65.2,33.8,62z M483.9,453.4h-3.7v-3.7
+                        c0-4.4-3.6-8-8-8s-8,3.6-8,8v3.7h-3.7c-4.4,0-8,3.6-8,8s3.6,8,8,8h3.7v3.7c0,4.4,3.6,8,8,8s8-3.6,8-8v-3.7h3.7c4.4,0,8-3.6,8-8
+                        S488.3,453.4,483.9,453.4z M507.6,154.4C480.4,90.6,430.5,39.9,367,11.7c-4.9-2.2-10.6,0-12.7,4.9c-2.2,4.9,0,10.6,4.9,12.7
+                        c58.9,26.2,105.4,73.3,130.7,132.6c1.6,3.7,5.1,5.9,8.9,5.9c1.3,0,2.5-0.3,3.8-0.8C507.4,165,509.7,159.3,507.6,154.4z M134,485.5
+                        c-50.2-27.2-90.1-71.1-112.5-123.6c-2.1-4.9-7.8-7.2-12.7-5.1c-4.9,2.1-7.2,7.8-5.1,12.7c24.1,56.5,67.1,103.8,121.1,133
+                        c1.5,0.8,3,1.2,4.6,1.2c3.4,0,6.8-1.8,8.5-5.1C140.4,493.9,138.7,488,134,485.5z M472.2,55.7c5.9,0,10.6-4.7,10.6-10.6
+                        c0-5.9-4.7-10.6-10.6-10.6c-5.9,0-10.6,4.7-10.6,10.6C461.6,50.9,466.3,55.7,472.2,55.7z"
+            ></path>
+            <g>
+              <path
+                fill="#4F9DA6"
+                class="secondary-color dark-color"
+                d="M428.2,476.6v21.5h-56.2v-21.5H428.2z"
+              ></path>
+              <path
+                fill="#1A0841"
+                class="primary-color accent-color"
+                d="M499.4,413.9h-21.5v-56.2h21.5V413.9z M20.2,465.5L46.7,492H20.2V465.5z"
+              ></path>
+            </g>
+          </svg>
+        </a>
+        <h2>Metaverse</h2>
+        <h4>
+          Metaverse Lands, Metaverse DAOs, Metaverse items, Metaverse Gaming
+        </h4>
+        <h5>
+          <span><i class="fa-solid fa-lightbulb"></i></span>Actively managed
+          exposure to metaverse companies and projects with their assets
+        </h5>
+        <button>
+          <a href="metaverse.html">Explore this Cryptoasset</a>
+          <span><i class="fa-solid fa-chevron-right"></i></span>
+        </button>
+      </div>
+    </section>
+
+    <section id="assets-invest-confidently">
+      <div class="assets-invest-confidently-info">
+        <div class="assets-invest-img">
+          <img src="../img/all-auto-no-hassle-1.png" alt="Invest-Confidently" />
+        </div>
+        <div class="assets-invest-right">
+          <h1>Start investing confidently</h1>
+          <h4>
+            Ready to open an account and take charge of your financial future?
+            It's easy. Get set up in minutes.
+          </h4>
+
+          <p>
+            Investing in our cryptoassets means there’s no need to keep track of
+            multiple accounts, wallets, and keys. As always, we’ll automate your
+            investments, and do the trading and rebalancing for you.
+          </p>
+
+          <p>
+            We want to work together with you on your financial goals and
+            ambitions. We believe that everyone has a chance at creating wealth
+            and we are committed to seeing that belief into action
+          </p>
+          <a style="font-size: 15px" class="btn" href="Register.html"
+            >INVEST NOW</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <script src="/js/index.js"></script>
+    <script src="/js/sidebar.js"></script>
+  </body>
+</html>

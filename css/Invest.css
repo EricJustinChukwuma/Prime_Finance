@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#invest-banner {
+    padding-top: 150px;
+    padding-bottom: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    background-color: #fefefe;
+}
+
+#invest-banner h1 {
+    color: #19212b;
+    font-size: 1.9rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+
+#invest-banner .invest-banner-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+#invest-banner .invest-banner-left p {
+    color: #19212b;
+    font-size: 1.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 350;
+    padding-bottom: 10px;
+}
+
+#invest-banner .invest-banner-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+}
+
+#invest-banner .invest-banner-right form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 25px;
+    width: 100%;
+}
+
+#invest-banner .invest-banner-right form div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    gap: 10px;
+}
+
+#invest-banner .invest-banner-right form div label {
+    color: #19212b;
+    font-size: .955rem;
+}
+
+#invest-banner .invest-banner-right form input {
+    width: 100%;
+    font-size: 1.125rem;
+    padding: 15px 20px;
+    outline: none;
+    border: 1px solid #cecece;
+    border-radius: 30px;
+    color: #19212b;
+    transition: all ease-in-out .2s;
+}
+
+#invest-banner .invest-banner-right form input:focus, 
+#invest-banner .invest-banner-right form input:hover {
+    box-shadow: 1px 0px 5px 1px #19212b;
+}
+
+#invest-banner .invest-banner-right form div textarea {
+    width: 100%;
+    height: 250px;
+    border: 1px solid #cecece;
+    border-radius: 20px;
+    outline: none;
+    transition: all ease-in-out .2s;
+}
+
+#invest-banner .invest-banner-right form div textarea:hover,
+#invest-banner .invest-banner-right form div textarea:focus {
+    box-shadow: 1px 0px 5px 1px #19212b;
+}
+
+#invest-banner .invest-banner-right form button {
+    background-color: #057485;
+    color: #fff;
+    font-size: .9rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 35px;
+    transition: all ease-in-out .2s;
+}
+
+#invest-banner .invest-banner-right form button:hover {
+    transform: translateY(-10%);
+}
+
+@media only screen and (max-width: 477px) {
+    #invest-banner {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    #invest-banner .invest-banner-left p {
+        font-size: 1.125rem;
+    }
+
+    #invest-banner .invest-banner-right form input {
+        font-size: 1rem;
+    }
+}
+
+
+@media only screen and (max-width: 799px) {
+    #invest-banner {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    #invest-banner .invest-banner-left p {
+        font-size: 1.25rem;
+    }
+
+    #invest-banner .invest-banner-right form input {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 1180px) {
+    #invest-banner {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    #invest-banner .invest-banner-left p {
+        font-size: 1.25rem;
+    }
+
+    #invest-banner .invest-banner-right form input {
+        font-size: 1rem;
+    }
+}

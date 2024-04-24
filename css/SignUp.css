@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section {
+    padding-inline: 0px;
+}
+
+body {
+    background-color: #19212b;
+}
+
+#form-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+#form-container a img {
+    width: 100px;
+}
+
+#form-container .form-container-form {
+    width: 35%;
+    background-color: #fefefe;
+    margin: auto;
+    padding-block: 30px;
+    padding-inline: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 5px;
+}
+
+.form-container-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-container-form h1 {
+    color:#19212b;
+    font-size: 1.8rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.form-container-form h6 {
+    color:#19212b;
+    font-size: .925rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+}
+
+form .input-div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+}
+
+form .input-div input {
+    padding: 15px 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    outline: none;
+}
+
+form .input-div img {
+    position: absolute;
+    top: 45px;
+    right: 20px;
+    cursor: pointer;
+    display: flex;
+    width: 22px;
+}
+
+form .input-div i#eye-open {
+    display: none;
+    color: blue;
+}
+
+form .input-div i.toggled-off {
+    display: none;
+}
+
+form .input-div input:focus {
+    border: 1px solid rgb(23, 23, 219);
+    box-shadow: 2px 2px 10px 1px #474a4d;
+}
+
+form .input-div label {
+    font-size: .9rem;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #19212b;
+}
+
+form .input-div span {
+    color: red;
+}
+
+form .checkbox-div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+form .checkbox-div-login {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+form .checkbox-div input {
+    width: 20px;
+    height: 20px;
+}
+
+form .checkbox-div-login input {
+    width: 20px;
+    height: 20px;
+}
+
+form .checkbox-div p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: .9rem;
+}
+
+form .checkbox-div-login p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: .9rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+form .checkbox-div p a{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: .9rem;
+    font-weight: 600;
+    text-decoration: none;
+    color:rgb(17, 91, 250);
+}
+
+form .checkbox-div-login p a{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: .9rem;
+    font-weight: 600;
+    text-decoration: none;
+    color:rgb(17, 91, 250);
+}
+
+.form-container-form form button {
+    background-color: rgb(17, 91, 250);
+    border: none;
+    border-radius: 5px;
+    padding-block: 12px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.form-container-form > p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 5px;
+    font-size: .9rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.form-container-form > p a {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: .9rem;
+    text-decoration: none;
+    color:rgb(17, 91, 250);
+    font-weight: 700;
+}
+/*-----------------------------------------------------*/
+
+/*-------- REGISTER FOOTER ----------------*/
+#register-footer {
+    border-top: 1px solid rgb(122, 122, 122);
+    padding-inline: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 25px;
+}
+
+#register-footer div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+#register-footer p {
+    font-size: .935rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(141, 139, 139, 0.685);
+}
+
+#register-footer a {
+    font-size: .9rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(17, 91, 250, 0.61);
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------- RESPONSIVE STARTS HERE -------------*/
+@media only screen and (max-width: 477px) {
+    #form-container .form-container-form {
+        width: 100%;
+        padding-inline: 20px;
+        gap: 20px;
+    }
+
+    .section {
+        padding-inline: 20px;
+    }
+
+    .form-container-form h1 {
+        font-size: 1.2rem;
+    }
+    
+    .form-container-form h6 {
+        font-size: .8rem;
+    }
+
+    #register-footer {
+        flex-direction: column-reverse;
+        gap: 20px;
+        padding-inline: 20px;
+    }
+
+    #register-footer div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 799px) {
+    #form-container .form-container-form {
+        width: 100%;
+        gap: 20px;
+    }
+
+    .section {
+        padding-inline: 20px;
+    }
+
+    .form-container-form h1 {
+        font-size: 1.25rem;
+    }
+    
+    .form-container-form h6 {
+        font-size: .75rem;
+    }
+
+    #register-footer {
+        flex-direction: column-reverse;
+        gap: 20px;
+        padding-inline: 20px;
+        padding-block: 25px;
+    }
+
+    #register-footer div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+    }
+}

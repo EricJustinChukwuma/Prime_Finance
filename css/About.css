@@ -1,0 +1,1079 @@
+#about-banner {
+    width: 100%;
+    height: 100vh;
+    background: transparent;
+}
+
+.about-banner-div {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    gap: 20px;
+}
+
+.about-banner-div img {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -999;
+    top: 20;
+    left: 0;
+}
+
+.opacity-div {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -997;
+    background-color: black;
+    opacity: .5;
+}
+
+.about-banner-div h1 {
+    line-height: 1;
+    font-size: 7rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    z-index: 1;
+    animation-name: onLoad-visible;
+    animation-duration: 800ms;
+    animation-timing-function: 800ms;
+    /* animation-direction: alternate; */
+}
+
+.about-banner-div p {
+    font-size: 2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+    padding-bottom: 50px;
+    padding-inline: 20.2rem;
+    z-index: 1;
+    animation-name: onLoad-slide-in;
+    animation-duration: 400ms;
+    animation-timing-function: 400ms;
+    animation-direction: alternate;
+    animation-delay: 800ms;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+@keyframes onLoad-visible {
+    0% {
+        scale: 0;
+        opacity: 0;
+    }
+
+    90% {
+        scale: 1.2;
+        opacity: 0.8;
+    }
+
+    100% {
+        scale: 1;
+        opacity: 1;
+    }
+}
+
+@keyframes onLoad-slide-in {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+/*------- ABOUT BANNER ENDS ------------*/
+
+
+/*-------- ABOUT BANNER-2 ------------*/
+#about-banner-2 {
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10rem;
+    padding-block: 7rem;
+    animation-name: right-image-move;
+    animation-duration: .3s;
+    animation-timing-function: 400ms;
+    animation-iteration-count: 1;
+    animation-delay: 200ms;
+}
+
+.about-banner-2-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1.425rem;
+}
+
+.about-banner-2-left h6 {
+    font-size: .9rem;
+    color: #057485;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.about-banner-2-left h1 {
+    font-size: 3rem;
+    color: #19212b;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    animation: banner2-header-slideIn;
+    animation-duration: 800ms;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.about-banner-2-left p {
+    font-size: 1.65rem;
+    color: #19212b;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    animation-name: banner2-p-slideIn;
+    animation-duration: 800ms;
+    animation-delay: 400ms;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.about-banner-2-right {
+    width: 100%;
+}
+
+.about-banner-2-right img {
+    width: 600px;
+    transition: transform ease-in-out 800ms;
+    animation-name: banner2-image-slideIn;
+    animation-duration: 800ms;
+    animation-fill-mode: forwards;
+    animation-delay: 600ms;
+    opacity: 0;
+}
+
+.about-banner-2-right img.move-image-up {
+    transform: translateY(-25%);
+}
+
+.about-banner-2-right img.move-image-down {
+    transform: translateY(25%);
+}
+
+@keyframes banner2-header-slideIn {
+    0% {
+        transform: translateX(-50%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes banner2-p-slideIn {
+    0% {
+        transform: translateX(-50%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes  banner2-image-slideIn {
+    0% {
+        transform: translateX(30%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+/*----------ABOUT BANNER 2 ENDS --------------*/
+
+
+/*------- ABOUT-INFO STARTS HERE ------------*/
+#about-info {
+    background-color: #ebe7e7;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 80px;
+    padding-bottom: 160px;
+    position: relative;
+}
+
+#about-info h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#19212b;
+}
+
+#about-info p {
+    font-size: 1rem;
+    font-weight: 400;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#666565;
+    line-height: 1.5
+}
+
+#about-info h5 {
+    font-weight: 200;
+    font-size: .925rem;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#about-info .long-line {
+    position: absolute;
+    z-index: 999;
+    top: -34px;
+    left: 620px;
+    background-color: #868383;
+    color: #fff;
+    padding: 35px 10px;
+    font-size: 2.25rem;
+}
+
+#about-info .long-line-small {
+    display: none;
+    background-color: #868383;
+    color: #fff;
+    padding: 35px 10px;
+    font-size: 2.25rem;
+    margin: auto;
+}
+
+#about-info .long-line-2 {
+    position: absolute;
+    z-index: 999;
+    top: 1800px;
+    left: 620px;
+    background-color: #868383;
+    color: #fff;
+    padding: 35px 10px;
+    font-size: 2.25rem;
+}
+
+#about-info .long-line-3 {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #868383;
+    color: #fff;
+    padding: 35px 10px;
+    font-size: 2.25rem;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#about-info .about-info-left {
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 80px;
+    justify-content: flex-start;
+    padding-right: 40px;
+    border-right: 2px solid #868383;
+}
+
+.about-info-left .about-info-left-top {
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.about-info-left .about-info-left-top > div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: right;
+    text-align: right;
+    padding: 50px 30px;
+    gap: 30px;
+}
+
+.about-info-left .about-info-left-top img {
+    width: 100%
+}
+
+.about-info-left-bottom {
+    /* width: 100%; */
+    background-color: #fff;
+    position: relative;
+}
+
+.about-info-left-bottom > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: right;
+    text-align: right;
+    padding: 50px 30px;
+    gap: 30px;
+    position: relative;
+}
+
+.about-info-left-bottom img {
+    width: 100%;
+    height: 300px
+}
+
+.about-info-left .about-info-left-top::before,
+.about-info-left .about-info-left-bottom::before {
+    content: "";
+    position: absolute;
+    background-color: #868383;
+    top: -9px;
+    right: -50px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    z-index: 9999999999;
+}
+
+.about-info-left .about-info-left-top::after,
+.about-info-left .about-info-left-bottom::after {
+    content: "";
+    position: absolute;
+    background-color: #868383;
+    top: 0px;
+    right: -40px;
+    width: 40px;
+    height: 2px;
+    z-index: 1;
+}
+
+.about-info-left-bottom > div:last-child::before {
+    content: "";
+    position: absolute;
+    background-color: #868383;
+    width: 18px;
+    height: 18px;
+    top: -12px;
+    right: -50px;
+    border-radius: 50%;
+    z-index: 999999;
+}
+
+.about-info-left-bottom > div:last-child::after {
+    content: "";
+    position: absolute;
+    background-color: #868383;
+    width: 40px;
+    height: 2px;
+    top: -4px;
+    right: -40px;
+    border-radius: 50%;
+    z-index: 999999;
+}
+
+.about-info-right {
+    padding-top: 150px;
+    padding-left: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 440px;
+    position: relative;
+}
+
+
+.about-info-right > div {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    padding: 50px 30px 30px;
+    gap: 30px;
+    position: relative;
+}
+
+.about-info-right > div:first-child {
+    margin-bottom: 450px;
+}
+
+.about-info-right > div::before {
+    content: "";
+    position: absolute;
+    background-color: #868383;
+    width: 18px;
+    height: 18px;
+    top: -9px;
+    left: -50px;
+    border-radius: 50%;
+    z-index: 9999999;
+}
+
+.about-info-right > div::after {
+    content: "";
+    position: absolute;
+    background-color: #868383;
+    width: 40px;
+    height: 2px;
+    top: 0;
+    left: -40px;
+    border-radius: 50%;
+    z-index: 9999999;
+}
+/*-----------------------------------------*/
+
+/*--------- CULTURE-SECTION STARTS HERE -----------*/
+#culture-section {
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    gap: 250px;
+    background-color: #fff;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-right: 100px;
+}
+
+#culture-section .culture-img {
+    width: 120%;
+}
+
+.culture-img img {
+    width: 100%;
+}
+
+.culture-right {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 25px;
+}
+
+.culture-right h6 {
+    font-size: 1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    color:#057485;
+}
+
+.culture-right h1 {
+    font-size: 3rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    color:#191919ec;
+}
+
+.culture-right h3 {
+    font-size: 1.7rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    color:#191919ec;
+}
+
+.culture-right p {
+    font-size: 1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    color:#191919ec;
+}
+
+.culture-right > div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+    margin-top: 10px;
+    /* background-image: linear-gradient(to right, red, blue); */
+}
+
+.focused,
+.flexibility {
+    width: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, transparent, #dedede, #cecece);
+    animation-name: roll-out;
+    animation-duration: 800ms;
+    animation-timing-function: 800ms;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    overflow-x: hidden;
+}
+
+@keyframes roll-out {
+    0% {
+        transform: translateX(-50%);
+        opacity: 0;
+        width: 0%;
+        overflow-x: hidden;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+        width: 100%;
+        overflow-x: visible;
+    }
+}
+/*-------------------------------------------*/
+
+/*---------- THE TEAM -----------*/
+#team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 30px;
+    text-align: center;
+}
+
+#team h1 {
+    font-size: 3rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    color:#191919ec;
+}
+
+#team p {
+    width: 25%;
+    font-size: 1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    color: #057485;
+}
+
+#team .btn {
+    background-color: #191919ec;
+    border: 1px solid #191919ec;
+    color: #191919ec;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 477px) {
+    #about-banner {
+        margin-top: 1rem;
+        width: 100%;
+    }
+
+    .about-banner-div {
+        width: 100%;
+        height: 100%;
+    }
+
+    .about-banner-div h1 {
+        font-size: 4rem;
+        padding-bottom:15px;
+    }
+
+    .about-banner-div p {
+        font-size: 22px;
+        font-weight: 200;
+        padding-inline: 1.2rem;
+    }
+
+    .about-banner-div img {
+        height: 100%;
+    }
+
+    .opacity-div {
+        height: 100%;
+    }
+    /*-----------ABOUT BANNER RESPONSIVE ENDS -------------*/
+
+    /*---------- ABOUT BANNER 2 RESPONSIVE ----------------*/
+
+    #about-banner-2 {
+        flex-direction: column;
+        gap: 5rem;
+        padding-block: 5rem;
+    }
+
+    .about-banner-2-left h1 {
+        font-size: 2rem;
+    }
+
+    .about-banner-2-left p {
+        font-size: 1.25rem;
+    }
+
+    .about-banner-2-right {
+        width: 100%;
+    }
+    
+    .about-banner-2-right img {
+        width: 100%;
+    }
+
+    /*------------  ------------------*/
+    #about-info {
+        flex-direction: column;
+        padding-top: 50px;
+        padding-bottom: 120px;
+    }
+
+    #about-info .long-line {
+        display: none;
+        top: -34px;
+        left: 0;
+    }
+
+    #about-info .long-line-small {
+        margin-top: 20px;
+        display: flex;
+    }
+
+    #about-info .long-line-2 {
+        display: none;
+    }
+
+    #about-info .long-line-3 {
+        display: flex;
+    }
+
+    .about-info-left .about-info-left-top::before,
+    .about-info-left .about-info-left-bottom::before {
+        display: none;
+    }
+
+    .about-info-left .about-info-left-top::after,
+    .about-info-left .about-info-left-bottom::after {
+        display: none;
+    }
+
+    .about-info-left-bottom > div:last-child::before {
+        display: none;
+    }
+    
+    .about-info-left-bottom > div:last-child::after {
+        display: none;
+    }
+
+    .about-info-right > div::before {
+        display: none;
+    }
+    
+    .about-info-right > div::after {
+        display: none;
+    }
+
+    #about-info .about-info-left {
+        border: none;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 110px;
+        gap: 40px;
+    }
+
+    .about-info-right {
+        padding-top: 0px;
+        padding-left: 0px;
+        gap: 20px;
+    }
+
+    .about-info-right > div:first-child {
+        margin-bottom: 0px;
+    }
+
+    #about-info h1 {
+        font-size: 1.35rem;
+    }
+    /*--------------------------------------------*/
+
+    
+    #culture-section {
+        grid-template-columns: 1fr;
+        gap: 50px;
+        padding-right: 0px;
+        padding-inline: 40px;
+    }
+
+    .culture-right {
+        width: 100%;
+    }
+
+    #culture-section .culture-img {
+        width: 100%;
+    }
+
+    .culture-right h1 {
+        font-size: 2rem;
+    }
+
+    .culture-right h6 {
+        font-size: .8rem;
+    }
+
+    .culture-right h3 {
+        font-size: 1.25rem;
+    }
+    
+    .culture-right p {
+        font-size: .8rem;
+    }
+    /*--------------------------------------------*/
+
+    #team p {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 799px) {
+    #about-banner {
+        margin-top: 0rem;
+        margin-bottom: .5rem;
+        width: 100%;
+    }
+
+    .about-banner-div h1 {
+        font-size: 4rem;
+        padding-bottom:15px;
+    }
+
+    .about-banner-div p {
+        font-size: 22px;
+        font-weight: 200;
+        padding-inline: 1.2rem;
+    }
+
+    .about-banner-div img {
+        height: 60%;
+    }
+
+    .opacity-div {
+        height: 60%;
+    }
+    /*-----------ABOUT BANNER 1 ENDS -----------*/
+
+    #about-banner-2 {
+        flex-direction: column;
+        gap: 5rem;
+        padding-block: 5rem;
+    }
+
+    .about-banner-2-left h1 {
+        font-size: 2.5rem;
+    }
+
+    .about-banner-2-left p {
+        font-size: 1.35rem;
+    }
+
+    .about-banner-2-right {
+        width: 100%;
+    }
+    
+    .about-banner-2-right img {
+        width: 100%;
+    }
+    /*----------- ABOUT BANNER 2 ENDS ----------------*/
+
+    /*-----------ABOUT BANNER INFO STARTS ------------*/
+    #about-info {
+        flex-direction: column;
+        padding-top: 50px;
+        padding-bottom: 120px;
+    }
+
+    #about-info .long-line {
+        display: none;
+        top: 90px;
+        left: 35%;
+    }
+
+    #about-info .long-line-small {
+        display: flex;
+        margin-top: 20px;
+    }
+
+    #about-info .long-line-2 {
+        display: none;
+    }
+
+    #about-info .long-line-3 {
+        display: flex;
+    }
+
+    .about-info-left .about-info-left-top::before,
+    .about-info-left .about-info-left-bottom::before {
+        display: none;
+    }
+
+    .about-info-left .about-info-left-top::after,
+    .about-info-left .about-info-left-bottom::after {
+        display: none;
+    }
+
+    .about-info-left-bottom > div:last-child::before {
+        display: none;
+    }
+    
+    .about-info-left-bottom > div:last-child::after {
+        display: none;
+    }
+
+    .about-info-right > div::before {
+        display: none;
+    }
+    
+    .about-info-right > div::after {
+        display: none;
+    }
+
+    #about-info .about-info-left {
+        border: none;
+        padding-right: 0px;
+        padding-bottom: 40px;
+    }
+
+    .about-info-right {
+        padding-top: 0px;
+        padding-left: 0px;
+        gap: 20px;
+    }
+
+    .about-info-right > div:first-child {
+        margin-bottom: 0px;
+    }
+
+    #about-info h1 {
+        font-size: 1.65rem;
+    }
+    /*-------------------------------------*/
+
+    #culture-section {
+        grid-template-columns: 1fr;
+        gap: 50px;
+        padding-right: 0px;
+        padding-inline: 40px;
+    }
+
+    #culture-section .culture-img {
+        width: 100%;
+    }
+
+    .culture-right h1 {
+        font-size: 2.5rem;
+    }
+
+    .culture-right h6 {
+        font-size: .925rem;
+    }
+
+    .culture-right h3 {
+        font-size: 1.35rem;
+    }
+    
+    .culture-right p {
+        font-size: .9rem;
+    }
+
+
+    #team p {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media only screen and (max-width: 999px) {
+    #about-info .long-line {
+        display: none;
+    }
+
+    #about-info .long-line-2 {
+        display: none;
+    }
+
+    #about-info .long-line-3 {
+        display: none;
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1180px) {
+    #about-banner {
+        margin-top: 1rem;
+        width: 100%;
+        height: 45vh;
+    }
+
+    .about-banner-div p {
+        padding-inline: 0rem;
+    }
+    /*--------------------------------------*/
+    #about-banner-2 {
+        flex-direction: column;
+        gap: 5rem;
+        padding-block: 5rem;
+    }
+
+    .about-banner-2-right {
+        width: 100%;
+    }
+    
+    .about-banner-2-right img {
+        width: 100%;
+    }
+    /*----------------------------------*/
+
+    #about-info {
+        flex-direction: column;
+        padding-top: 0px;
+        padding-top: 20px;
+        padding-bottom: 80px;
+        gap: 40px;
+    }
+    
+    #about-info .long-line {
+        display: none;
+        top: 0px;
+        left: 33%;
+    }
+
+    #about-info .long-line-small {
+        display: flex;
+        margin-top: 20px;
+    }
+
+    #about-info .long-line-2 {
+        display: none;
+    }
+
+    #about-info .long-line-3 {
+        display: flex;
+    }
+
+    .about-info-left .about-info-left-top::before,
+    .about-info-left .about-info-left-bottom::before {
+        display: none;
+    }
+
+    .about-info-left .about-info-left-top::after,
+    .about-info-left .about-info-left-bottom::after {
+        display: none;
+    }
+
+    .about-info-left-bottom > div:last-child::before {
+        display: none;
+    }
+    
+    .about-info-left-bottom > div:last-child::after {
+        display: none;
+    }
+
+    .about-info-right > div::before {
+        display: none;
+    }
+    
+    .about-info-right > div::after {
+        display: none;
+    }
+
+    #about-info .about-info-left {
+        padding-top: 0px;
+        padding-right: 0px;
+        gap: 40px;
+        border: none;
+    }
+
+    .about-info-right {
+        padding-top: 0px;
+        padding-left: 0px;
+        gap: 40px;
+    }
+    
+    .about-info-right > div:first-child {
+        margin-bottom: 0px;
+    }
+    /*---------------------------------*/
+
+    #culture-section {
+        grid-template-columns: 1fr;
+        gap: 50px;
+        padding-right: 0px;
+        padding-inline: 40px;
+    }
+
+    #culture-section .culture-img {
+        width: 100%;
+    }
+    
+    .culture-img img {
+        width: 100%;
+    }
+}

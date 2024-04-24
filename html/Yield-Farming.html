@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yield-Farming</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/realeases/v5.10.0/css/all.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/249c058127.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/css/index.css" />
+    <link rel="stylesheet" href="/css/Coins-&-Tokens.css" />
+  </head>
+  <body>
+    <header class="home">
+      <nav class="navbar">
+        <a class="logo" href="index.html">Prime Finance</a>
+        <span id="open-menu"
+          ><i id class="fa fa-bars" aria-hidden="true"></i
+        ></span>
+        <div class="navbar-navigation">
+          <ul class="nav-pages">
+            <li class="page"><a href="index.html">Home</a></li>
+            <li class="page">
+              <a href="Funds.html">Funds</a>
+              <ul class="dropdown">
+                <li><a href="">Overview</a></li>
+                <li><a href="Bitcoin-Fund.html">Trial Premium</a></li>
+                <li><a href="BTC-Platinum.html">Platinum Plan</a></li>
+                <li><a href="BTC-Private-Fund.html">Private Credit Fund</a></li>
+              </ul>
+            </li>
+            <li class="page">
+              <a href="CryptoPortfolio.html">Crypto Portfolio</a>
+            </li>
+            <li class="page">
+              <a class="active" href="CryptoAssets.html">Crypto Assets</a>
+              <ul class="dropdown">
+                <li>
+                  <a href="CryptoAssets.html">Overview of Crypto assets</a>
+                </li>
+                <li><a href="Coins-and-Tokens.html">Coins & Tokens</a></li>
+                <li><a href="Crypto-Staking.html">Crypto Staking</a></li>
+                <li>
+                  <a class="active" href="Yield-Farming.html">Yield Farming</a>
+                </li>
+                <li>
+                  <a href="Crypto-Infrastructure.html">Crypto Infrastructure</a>
+                </li>
+                <li>
+                  <a href="Non-Fungible-Tokens.html">Non-fungible Tokens</a>
+                </li>
+                <li><a href="Metaverse.html">Metaverse</a></li>
+              </ul>
+            </li>
+            <li class="page">
+              <a href="About.html">About</a>
+              <ul class="dropdown">
+                <li><a href="About.html">The Firm</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="Careers.html">Careers</a></li>
+              </ul>
+            </li>
+          </ul>
+          <div class="nav-button-wrapper">
+            <button class="nav-button">
+              <a href="Register.html">SIGNUP</a>
+            </button>
+            <button class="nav-button"><a href="Login.html">LOGIN</a></button>
+          </div>
+        </div>
+      </nav>
+
+      <div class="sidebar">
+        <span id="close-sidebar"><i class="fa-solid fa-xmark"></i></span>
+        <div class="sidebar-top">
+          <button><a href="index.html">HOME</a></button>
+          <button>
+            <a href="Funds.html">FUNDS</a>
+            <span class="up-down-icon" onclick="showDropDownFunds()">
+              <i class="fa-solid fa-chevron-down"></i>
+            </span>
+          </button>
+          <div class="sidebar-dropdown sidebar-dropdown1">
+            <a href="Funds.html">Overview</a>
+            <a href="Bitcoin-Fund.html">Trial Premium</a>
+            <a href="BTC-Platinum.html">Platinum Plan</a>
+            <a href="BTC-Private-Fund.html">Private Credit Fund</a>
+          </div>
+          <button><a href="CryptoPortfolio.html">CRYPTO PORTFOLIO</a></button>
+          <button>
+            <a class="active" href="CryptoAssets.html">CRYPTO ASSETS</a>
+            <span class="up-down-icon" onclick="showDropDownCryptoAssets()">
+              <i class="fa-solid fa-chevron-down"></i>
+            </span>
+          </button>
+          <div class="sidebar-dropdown sidebar-dropdown2">
+            <a href="CryptoAssets.html">Overview of Crypto assets</a>
+            <a href="Coins-and-Tokens.html">Coins & Tokens</a>
+            <a href="Crypto-Staking.html">Crypto Staking</a>
+            <a class="active" href="Yield-Farming.html">Yield Farming</a>
+            <a href="Crypto-Infrastructure.html">Crypto Infrastructure</a>
+            <a href="Non-Fungible-Tokens.html">Non-fungible Tokens</a>
+            <a href="Metaverse.html">Metaverse</a>
+          </div>
+
+          <button>
+            <a href="About.html">ABOUT</a>
+            <span class="up-down-icon" onclick="showDropDownAbout()">
+              <i class="fa-solid fa-chevron-down"></i>
+            </span>
+          </button>
+          <div class="sidebar-dropdown sidebar-dropdown3">
+            <a href="About.html">The Firm</a>
+            <a href="Contact.html">Contact</a>
+            <a href="Careers.html">Careers</a>
+          </div>
+        </div>
+
+        <div class="sidebar-button-wrapper">
+          <button class="nav-button">
+            <a href="Register.html">SIGNUP</a>
+          </button>
+          <button class="nav-button"><a href="Login.html">LOGIN</a></button>
+        </div>
+      </div>
+    </header>
+
+    <a class="whatsapp-logo" aria-label="Chat on WhatsApp" href="https://wa.me/18143157677" target="_blank">
+      <i class="fa-brands fa-square-whatsapp"></i>
+    </a>
+
+    <section id="coins-and-tokens-banner">
+      <div class="coins-tokens-top section">
+        <h1>Yield Farming</h1>
+        <h4>Explore DeFi yield farming for investors</h4>
+      </div>
+    </section>
+
+    <section id="coins-tokens-bottom-banner">
+      <div class="coins-tokens-bottom-info">
+        <div class="coins-tokens-bottom-left">
+          <h2>Let's take a look at yield farming?</h2>
+          <p>
+            Yield farming is the process of using decentralized finance (DeFi)
+            to maximize returns. Users lend or borrow crypto on a DeFi platform
+            and earn cryptocurrency in return for their services. Yield farming
+            investors who want to increase their yield output can employ more
+            complex tactics. Another term for yield farming is 'liquidity
+            mining', which is the provision of liquidity for DeFi transactions,
+            in return for high yields.
+          </p>
+        </div>
+        <div class="coins-tokens-bottom-img">
+          <img src="/img/port01.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section id="coins-tokens-benefits" class="section">
+      <div class="coins-tokens-benefits-header">
+        <h1>Benefits of investing in yield farming</h1>
+      </div>
+      <div class="coins-tokens-benefits-info">
+        <div>
+          <h3>
+            <span><i class="fa-solid fa-check"></i></span> High returns
+          </h3>
+          <p>
+            Yield farming Ethereum-based credit markets are offering new
+            strategies for crypto owners to earn incredibly attractive returns
+            on their cryptocurrency, at least a hundred times higher than a
+            traditional bank would offer. Yield farming also offers higher
+            profits than almost any other traditional investment channel, from
+            real estate to stocks and bonds.
+          </p>
+        </div>
+        <div>
+          <h3>
+            <span><i class="fa-solid fa-check"></i></span> Mining rewards
+          </h3>
+          <p>
+            Yield farming investors can also turbo-charge their returns with
+            liquidity mining. They receive tokens from the company borrowing
+            their funds, in addition to the high interest on their loan.
+          </p>
+        </div>
+        <div>
+          <h3>
+            <span><i class="fa-solid fa-check"></i></span> Controlled risk
+          </h3>
+          <p>
+            Unlike traditional financial services, yield farming integrates
+            smart contracts to manage and mitigate risks related to financial
+            services, using the immutability of the blockchain and proof
+            protocols.
+          </p>
+        </div>
+        <div>
+          <h3>
+            <span><i class="fa-solid fa-check"></i></span> Better than savings
+          </h3>
+          <p>
+            Instead of just having your cryptocurrency stored in a wallet, you
+            can effectively earn more crypto by yield farming. Yield farming
+            investors can earn from transaction fees, token rewards, interest,
+            and price appreciation. Yield farming is also an inexpensive
+            alternative to mining — since you don’t have to purchase expensive
+            mining equipment or pay for electricity.
+          </p>
+        </div>
+        <a href="Register.html">Take the next step</a>
+      </div>
+    </section>
+
+    <section id="coins-tokens-portfolio">
+      <div class="coins-tokens-portfolio-info">
+        <div class="coins-tokens-portfolio-img">
+          <img src="/img/Build_Portfolio.jpg" alt="" />
+        </div>
+        <div class="coins-tokens-portfolio-right">
+          <h2>Build your own portfolio of assets</h2>
+          <div>
+            <h5>AUTOMATED INVESTING</h5>
+            <p>
+              With an auto-invest account, you can increase your wallet balance
+              and rebalance your portfolio of cryptoassets in the event of a
+              bull run, to maximize your ROI
+            </p>
+          </div>
+          <a class="btn" href="Register.html">Get Started Now</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="coins-tokens-trade-type" class="section">
+      <div class="coins-tokens-trade-type-header">
+        <h1>Types of yield farming investments</h1>
+      </div>
+      <div class="coins-tokens-trade-type-info">
+        <div>
+          <h3>Liquidity provision</h3>
+          <p>
+            Liquidity providers deposit two coins to a DEX to provide trading
+            liquidity. Exchanges charge a small fee to swap the two tokens which
+            is paid to liquidity providers. This fee can sometimes be paid in
+            new liquidity pool (LP) tokens.
+          </p>
+        </div>
+        <div>
+          <h3>Lending</h3>
+          <p>
+            Coin or token holders can lend crypto to borrowers through a smart
+            contract and earn yield from interest paid on the loan.
+          </p>
+        </div>
+        <div>
+          <h3>Borrowing</h3>
+          <p>
+            Investors can use one token as collateral and receive a loan of
+            another. Users can then farm yield with the borrowed coins. This
+            way, the farmer keeps their initial holding, which may increase in
+            value over time, while also earning yield on their borrowed coins.
+          </p>
+        </div>
+        <div>
+          <h3>Staking</h3>
+          <p>
+            There are two forms of staking in the world of DeFi. The main form
+            is on proof-of-stake blockchains, where a user is paid interest to
+            pledge their tokens to the network to provide security. The second
+            is to stake LP tokens earned from supplying a DEX with liquidity.
+            This allows users to earn yield twice, as they are paid for
+            supplying liquidity in LP tokens which they can then stake to earn
+            more yield.
+          </p>
+        </div>
+        <a href="Register.html">Take the next step</a>
+      </div>
+    </section>
+
+    <section id="coins-tokens-portfolio-2">
+      <div class="coins-tokens-portfolio-2-info">
+        <div class="coins-tokens-portfolio-2-left">
+          <h2>Get started on yield farming investing today!</h2>
+          <div>
+            <h5>ALL-ROUND PROFIT</h5>
+            <p>
+              With yield farming, token holders maximize rewards across various
+              DeFi platforms and earn rewards in cryptocurrencies. Access top
+              yield farming protocols include Aave, Curve Finance, Uniswap and
+              many others, and avert risk due to price volatility, rug pulls,
+              smart contract hacks and more.
+            </p>
+          </div>
+          <a class="btn" href="Register.html">Get Started Now</a>
+        </div>
+        <div class="coins-tokens-portfolio-img">
+          <img src="/img/review-1.jpeg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <script src="/js/index.js"></script>
+    <script src="/js/sidebar.js"></script>
+  </body>
+</html>

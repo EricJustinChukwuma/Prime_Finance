@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/realeases/v5.10.0/css/all.css"/>
+    <script src="https://kit.fontawesome.com/249c058127.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/index.css" />
+    <link rel="stylesheet" href="/css/Coins-&-Tokens.css">
+</head>
+<body>
+  <header class="home">
+    <nav class="navbar">
+      <a class="logo" href="index.html">Prime Finance</a>
+      <span id="open-menu"><i id class="fa fa-bars" aria-hidden="true"></i></span>
+      <div class="navbar-navigation">
+        <ul class="nav-pages">
+          <li class="page"><a href="index.html">Home</a></li>
+          <li class="page">
+            <a href="Funds.html">Funds</a>
+            <ul class="dropdown">
+              <li><a href="Funds.html">Overview</a></li>
+              <li><a href="Bitcoin-Fund.html">Trial Premium</a></li>
+              <li><a href="BTC-Platinum.html">Platinum Plan</a></li>
+              <li><a href="BTC-Private-Fund.html">Private Credit Fund</a></li>
+            </ul>
+          </li>
+          <li class="page">
+            <a href="CryptoPortfolio.html">Crypto Portfolio</a>
+          </li>
+          <li class="page">
+            <a class="active" href="CryptoAssets.html">Crypto Assets</a>
+            <ul class="dropdown">
+              <li><a href="CryptoAssets.html">Overview of Crypto assets</a></li>
+              <li><a href="Coins-and-Tokens.html">Coins & Tokens</a></li>
+              <li><a class="active" href="Crypto-Staking.html">Crypto Staking</a></li>
+              <li><a href="Yield-Farming.html">Yield Farming</a></li>
+              <li><a href="Crypto-Infrastructure.html">Crypto Infrastructure</a></li>
+              <li><a href="Non-Fungible-Tokens.html">Non-fungible Tokens</a></li>
+              <li><a href="Metaverse.html">Metaverse</a></li>
+            </ul>
+          </li>
+          <li class="page">
+            <a href="About.html">About</a>
+            <ul class="dropdown">
+              <li><a href="About.html">The Firm</a></li>
+              <li><a href="Contact.html">Contact</a></li>
+              <li><a href="Careers.html">Careers</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="nav-button-wrapper">
+          <button class="nav-button">
+            <a href="Register.html">SIGNUP</a>
+          </button>
+          <button class="nav-button"><a href="Login.html">LOGIN</a></button>
+        </div>
+      </div>
+    </nav>
+
+
+
+    <div class="sidebar">
+      <span id="close-sidebar"><i class="fa-solid fa-xmark"></i></span>
+      <div class="sidebar-top">
+          <button><a href="index.html">HOME</a></button>
+          <button>
+              <a href="Funds.html">FUNDS</a>
+              <span class="up-down-icon" onclick="showDropDownFunds()">
+                <i class="fa-solid fa-chevron-down"></i>
+              </span>
+          </button>
+          <div class="sidebar-dropdown sidebar-dropdown1">
+              <a href="Funds.html">Overview</a>
+              <a href="Bitcoin-Fund.html">Trial Premium</a>
+              <a href="BTC-Platinum.html">Platinum Plan</a>
+              <a href="BTC-Private-Fund.html">Private Credit Fund</a>
+          </div>
+          <button><a href="CryptoPortfolio.html">CRYPTO PORTFOLIO</a></button>
+          <button>
+              <a class="active" href="CryptoAssets.html">CRYPTO ASSETS</a>
+              <span class="up-down-icon" onclick="showDropDownCryptoAssets()">
+                <i class="fa-solid fa-chevron-down"></i>
+              </span>
+          </button>
+          <div class="sidebar-dropdown sidebar-dropdown2">
+              <a href="CryptoAssets.html">Overview of Crypto assets</a>
+              <a href="Coins-and-Tokens.html">Coins & Tokens</a>
+              <a class="active" href="Crypto-Staking.html">Crypto Staking</a>
+              <a href="Yield-Farming.html">Yield Farming</a>
+              <a href="Crypto-Infrastructure.html">Crypto Infrastructure</a>
+              <a href="Non-Fungible-Tokens.html">Non-fungible Tokens</a>
+              <a href="Metaverse.html">Metaverse</a>
+          </div>
+
+          <button>
+              <a href="About.html">ABOUT</a>
+              <span class="up-down-icon" onclick="showDropDownAbout()">
+                <i class="fa-solid fa-chevron-down"></i>
+              </span>
+          </button>
+          <div class="sidebar-dropdown sidebar-dropdown3">
+              <a href="About.html">The Firm</a>
+              <a href="Contact.html">Contact</a>
+              <a href="Careers.html">Careers</a>
+          </div>
+      </div>
+
+      <div class="sidebar-button-wrapper">
+          <button class="nav-button">
+            <a href="Register.html">SIGNUP</a>
+          </button>
+          <button class="nav-button"><a href="Login.html">LOGIN</a></button>
+      </div>
+    </div>
+  </header>
+
+  <a class="whatsapp-logo" aria-label="Chat on WhatsApp" href="https://wa.me/18143157677" target="_blank">
+    <i class="fa-brands fa-square-whatsapp"></i>
+  </a>
+
+  <section id="coins-and-tokens-banner">
+    <div class="coins-tokens-top section">
+      <h1>Crypto Currencies <br> Staking</h1>
+      <h4>Explore DeFi staking asset classes</h4>
+    </div>
+  </section>
+
+  <section id="coins-tokens-bottom-banner">
+    <div class="coins-tokens-bottom-info">
+      <div class="coins-tokens-bottom-left">
+        <h2>Let's take a look at DeFi staking?</h2>
+        <p>DeFi (Decentralized Finance) is a way of providing financial services to users through smart contracts. Existing DeFi projects aim to provide higher annualized earnings for specific currencies. DeFi staking is the process of "locking" your crypto tokens into a DeFi smart contract in order to earn more of those tokens in return. It is akin to having a fixed deposit with your bank, and the bank pays you interest on your money deposited with them.</p>
+      </div>
+      <div class="coins-tokens-bottom-img">
+        <img src="/img/2020/08/service_07-1.jpg" alt="">
+      </div>
+    </div>
+  </section>
+
+  <section id="coins-tokens-benefits" class="section">
+    <div class="coins-tokens-benefits-header">
+      <h1>Benefits of investing in crypto DeFi staking</h1>
+    </div>
+    <div class="coins-tokens-benefits-info">
+      <div>
+        <h3><span><i class="fa-solid fa-check"></i></span> Passive income</h3>
+        <p>DeFi staking is a very unique way of generating passive income, since investors commit their funds and smart contracts go to work, ensuring every condition is met, and profits are received.</p>
+      </div>
+      <div>
+        <h3><span><i class="fa-solid fa-check"></i></span> Safe and less risky</h3>
+        <p>DeFi staking is a safer and less risky way of generating passive revenue compared to traditional means. Having to worry less about common issues such as corruption, lack of transparency, and hidden fees will put users at ease.</p>
+      </div>
+      <div>
+        <h3><span><i class="fa-solid fa-check"></i></span> Higher interest</h3>
+        <p>With DeFi staking, investors can tap into higher interest rates compared to savings accounts and traditional products. With fewer intermediaries, the profit potential increases exponentially. More importantly, investors will always retain complete control over their funds, empowering participants in DeFi staking.</p>
+      </div>
+      <div>
+        <h3><span><i class="fa-solid fa-check"></i></span> Better than traditional saving</h3>
+        <p>Compared to keeping money in a savings account, choosing DeFi staking is almost a no-brainer. It has better rewards and support for assets that cannot fluctuate in value, like stablecoins.</p>
+      </div>
+      <a href="Register.html">Take the next step</a>
+    </div>
+  </section>
+
+  <section id="coins-tokens-portfolio">
+    <div class="coins-tokens-portfolio-info">
+      <div class="coins-tokens-portfolio-img">
+        <img src="/img/Build_Portfolio.jpg" alt="">
+      </div>
+      <div class="coins-tokens-portfolio-right">
+        <h2>Build your own portfolio of assets</h2>
+        <div>
+          <h5>AUTOMATED INVESTING</h5>
+          <p>With an auto-invest account, you can increase your wallet balance and rebalance your portfolio of cryptoassets in the event of a bull run, to maximize your ROI</p>
+        </div>
+        <a class="btn" href="Register.html">Get Started Now</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="coins-tokens-trade-type" class="section">
+    <div class="coins-tokens-trade-type-header">
+      <h1>Types of DeFi staking investments</h1>
+    </div>
+    <div class="coins-tokens-trade-type-info">
+      <div>
+        <h3>Stablecoins</h3>
+        <p>Stablecoins seek to maintain a constant value of a token relative to some asset, most commonly the U.S. dollar or other major fiat currency. Non-custodial stablecoins function as DeFi services themselves. Custodial stablecoins are centralized but may be incorporated into DeFi services.</p>
+      </div>
+      <div>
+        <h3>Credit</h3>
+        <p>Credit involves the creation of time-limited interest-bearing instruments, which must be repaid at maturity, and the matching of lenders and borrowers to issue those instruments.</p>
+      </div>
+      <div>
+        <h3>Derivatives</h3>
+        <p>Derivatives are synthetic financial instruments whose value is based on a function of an underlying asset or group of assets. Common examples are futures and options, which reference the value of an asset at some time in the future.</p>
+      </div>
+      <div>
+        <h3>Insurance</h3>
+        <p>Insurance provides protection against risks by trading the payment of a guaranteed small premium for the possibility of collecting a large payout in the event of a covered scenario.</p>
+      </div>
+      <a href="Register.html">Take the next step</a>
+    </div>
+  </section>
+
+  <section id="coins-tokens-portfolio-2">
+    <div class="coins-tokens-portfolio-2-info">
+      <div class="coins-tokens-portfolio-2-left">
+        <h2>Get started on DeFi crypto staking investing today!</h2>
+        <div>
+          <h5>ALL-ROUND PROFIT</h5>
+          <p>The concept of DeFi staking is continually gaining traction globally. As a result, more platforms and protocols are beginning to provide this functionality, leading to healthy competition and innovation.</p>
+        </div>
+        <a class="btn" href="Register.html">Get Started Now</a>
+      </div>
+      <div class="coins-tokens-portfolio-img">
+        <img src="/img/review-1.jpeg" alt="">
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <script src="/js/index.js"></script>
+  <script src="/js/sidebar.js"></script>
+</body>
+</html>

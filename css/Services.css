@@ -1,0 +1,431 @@
+svg {
+    width: 110px;
+}
+
+#services-banner-2-bottom a i,
+#services-banner-2 a i {
+    border: 1px solid #057485;
+    border-radius: 50%;
+    font-size: .7rem;
+    padding: 2px 4px;
+    transition: all ease-in-out .2s;
+}
+
+#services-banner-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 80px;
+    background-color: #f8f8f8;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#services-banner-2 h2 {
+    font-size: 1.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    color: #19212b;
+    margin-bottom: 60px;
+}
+
+#services-banner-2 .services-banner-2-top {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 45px;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px; */
+}
+
+#services-banner-2 .services-banner-2-top-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 30px;
+    width: 100%;
+}
+
+#services-banner-2 .services-banner-2-top-left h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+}
+
+.services-banner-2-top-left-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.services-banner-2-top-left-bottom h3 {
+    color:#19212b;
+    font-size: 1.125rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+
+.services-banner-2-top-left-bottom h4 {
+    color:rgb(136, 134, 134);
+    font-size: 1.125rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+}
+
+.services-banner-2-top-right {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    width: 100%;
+}
+
+.services-banner-2-top-right > div {
+    border: 1px solid rgb(219, 216, 216);
+    background-color: #fff;
+    padding: 40px 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.services-banner-2-top-right a {
+    text-decoration: none;
+    color: #057485;
+    font-size: .9rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: all ease-in-out .2s;
+}
+
+.services-banner-2-top-right a:hover {
+    color: #19212b;
+}
+
+.services-banner-2-top-right a:hover i {
+    border: 1px solid #19212b;
+    color: #19212b;
+    transform: translateX(20%);
+}
+/*--------------------------------------*/
+
+
+
+#services-banner-2-bottom {
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column: repeat(auto-fill,minmax(300px,1fr)); */
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    background-color: #f8f8f8;
+    gap: 40px;
+    padding-bottom: 100px;
+}
+
+#services-banner-2-bottom > div {
+    border: 1px solid rgb(219, 216, 216);
+    background-color: #fff;
+    padding: 40px 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+#services-banner-2-bottom > div h2 {
+    font-size: 1.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    color: #19212b;
+    margin-bottom: 60px;
+}
+
+#services-banner-2-bottom a {
+    text-decoration: none;
+    color: #057485;
+    font-size: .9rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: all ease-in-out .2s;
+}
+/*-------------------------------------------*/
+
+/*-----------BIZ-DESIGN STARTS HERE -------------*/
+#biz-design {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: rgb(221, 221, 221);
+    padding-block: 150px;
+    gap: 20px;
+}
+
+#biz-design .biz-design-image {
+    width: 120%;
+    height: 100%;
+}
+
+.biz-design-image img {
+    width: 100%;
+    height: 100%;
+}
+
+#biz-design .biz-design-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+}
+
+#biz-design .biz-design-right h1 {
+    font-size: 4.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+    color:#19212b;
+}
+
+#biz-design .biz-design-right h4 {
+    font-size: 1.725rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 350;
+    color:#19212b;
+}
+
+#biz-design .biz-design-right a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #057485;
+    padding: 20px 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    border-radius: 30px;
+    transition: all ease-in-out .2s;
+}
+
+#biz-design .biz-design-right a:hover {
+    transform: translateY(-12%)
+}
+/*---------------------------------------------*/
+
+.services {
+    background: url("/img/Metaverse_img_2.jpg") !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------RESPONSIVE STARTS HERE -------------------*/
+@media only screen and (max-width: 477px) {
+    #services-banner-2 {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+    #services-banner-2 .services-banner-2-top {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .services-banner-2-top-right {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .services-banner-2-bottom {
+        flex-direction: column;
+    }
+
+    #biz-design {
+        flex-direction: column;
+        padding-block: 150px;
+        gap: 20px;
+    }
+
+    #biz-design .biz-design-right h1 {
+        font-size: 2rem;
+    }
+
+    #biz-design .biz-design-right h4 {
+        font-size: 1.125rem;
+    }
+
+    #biz-design .biz-design-image {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 799px) {
+    #services-banner-2 {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    #services-banner-2 .services-banner-2-top {
+        flex-direction: column;
+    }
+
+    .services-banner-2-top-left-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .services-banner-2-top-right {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .services-banner-2-bottom {
+        flex-direction: column;
+    }
+
+    #biz-design {
+        flex-direction: column;
+        padding-block: 150px;
+        gap: 20px;
+    }
+
+    #biz-design .biz-design-right h1 {
+        font-size: 2.5rem;
+    }
+
+    #biz-design .biz-design-right h4 {
+        font-size: 1.325rem;
+    }
+    
+    #biz-design .biz-design-image {
+        width: 100%;
+        height: 100%;
+    }
+    
+}
+
+@media only screen and (max-width: 1180px) {
+    #services-banner-2 {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    #services-banner-2 .services-banner-2-top {
+        flex-direction: column;
+    }
+
+    .services-banner-2-top-left-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .services-banner-2-top-right {
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+    }
+
+    .services-banner-2-bottom {
+        flex-direction: column;
+    }
+
+    #biz-design {
+        flex-direction: column;
+        padding-block: 150px;
+        gap: 20px;
+    }
+
+    #biz-design .biz-design-right h1 {
+        font-size: 2.5rem;
+    }
+
+    #biz-design .biz-design-right h4 {
+        font-size: 1.325rem;
+    }
+    
+    #biz-design .biz-design-image {
+        width: 100%;
+        height: 100%;
+    }
+    
+}
+
+
+
+
+
+
+
+/* @media only screen and (max-width: 1024px) {
+    #services-banner-2 {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    #services-banner-2 .services-banner-2-top {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .services-banner-2-top-right {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .services-banner-2-bottom {
+        flex-wrap: wrap;
+    }
+
+    #biz-design {
+        flex-direction: column;
+        padding-block: 150px;
+        gap: 20px;
+    }
+
+    #biz-design .biz-design-right h1 {
+        font-size: 3.5rem;
+    }
+
+    #biz-design .biz-design-image {
+        width: 100%;
+        height: 100%;
+    }
+} */
+
+
+
+
+
+
+
